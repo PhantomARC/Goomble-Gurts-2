@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/CaptureCard.gd" type="Script" id=1]
+
+[sub_resource type="World" id=1]
+
+[node name="CaptureCard" type="ViewportContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="View" type="Viewport" parent="."]
+size = Vector2( 480, 360 )
+own_world = true
+world = SubResource( 1 )
+transparent_bg = true
+handle_input_locally = false
+render_target_update_mode = 3
+
+[node name="Camera2D" type="Camera2D" parent="View"]
+position = Vector2( 240, 180 )

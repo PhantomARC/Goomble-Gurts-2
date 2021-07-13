@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/HTTP.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scripts/Core.gd" type="Script" id=2]
+
+[node name="Core" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Back" type="CanvasLayer" parent="."]
+
+[node name="Front" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="Front"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0.541176, 0.415686, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HTTPRequest" parent="Front" instance=ExtResource( 1 )]

@@ -1,0 +1,191 @@
+Dex #,Name,Type,Passive,Move 1,Move 2,Move 3,Move 4,HP,ATK,DFS,MAG,RES,SPD,BST
+1,Krobe,Pepper,Small Snack,Magic Missiles,Jam Burn,Pie Knife,Share Pie,80,25,60,105,15,15,300
+2,Abtoben,Pepper,Small Snack,Magic Missiles,Jam Burn,Pie Knife,Share Pie,120,25,105,205,30,15,500
+3,Rabascus,Oil,Brittle Structure,Fractal,Cantrip,Smack,Steel Forge,55,80,25,70,40,30,300
+4,Wootzadore,Oil,Brittle Structure,Fractal,Cantrip,Smack,Steel Forge,105,130,90,120,25,30,500
+5,Skittaz,Chalk,Identity Theft,Punish,Demolish Spirit,Judgement,Eye for an Eye,70,100,20,0,20,90,300
+6,Mattlebroche,Chalk,Identity Theft,Punish,Chalk Smash,Judgement,Eye for an Eye,170,200,20,0,20,90,500
+7,Catsquito,Chalk,Bloodsucker,Scratch,Suck,Fly,Buzz,60,130,10,50,10,40,300
+8,Buizzquito,Chalk,Bloodsucker,Scratch,Suck,Fly,Buzz,90,210,10,40,10,140,500
+9,Loser,Pepper,Spikes,Puncture,Lil Kicks,Jam Burn,Sharpen,150,0,200,50,50,50,500
+10,Telenion,Chalk,Running Late,Tea Splash,Jam Burn,Obscure Idealogy,Chronomancy,100,0,70,190,0,140,500
+11,Jelii,Oil,Gelatinous,Bone Bash,Engulf,Dissolve,Explode,100,0,20,0,180,0,300
+12,Jeliington,Oil,Gelatinous,Bone Bash,Engulf,Dissolve,Explode,200,0,0,0,300,0,500
+13,Sneep,Pepper,Ambush,Magic Missiles,Scratch,Eviscerate,Forage,100,100,100,100,50,50,500
+14,Skiddle,Oil,Multiple Jaws,Bite,Lil Kicks,Hunter's Mark,Retaliate,70,130,30,0,0,70,300
+15,Skidaddler,Oil,Multiple Jaws,Bite,Lil Kicks,Hunter's Mark,Retaliate,120,230,30,0,0,120,500
+16,Fimple,Chalk,Parasite,Magic Missiles,Cantrip,Trick,Dynamics,90,0,10,90,10,100,300
+17,Klownscis,Chalk,Parasite,Magic Missiles,Cantrip,Trick,Dynamics,140,0,60,140,10,150,500
+18,Mirimet,Chalk,Acolyte of the Sky,Magic Missiles,Cantrip,Arcane Shot,Lightning Bolt,140,10,60,290,0,0,500
+19,Purcon,Chalk,Old Arcana,Scratch,Smack,Fractal,Judgement,100,125,85,0,150,40,500
+20,Versare,Oil,Two-Sided,Scratch,Bite,Judgement,Running Slice,120,190,20,0,20,150,500
+21,Oboble,Oil,Self Destructive,Infected Bite,Fractal,Dark Vision,Coil,130,20,30,50,10,60,300
+22,Ouruo,Oil,Self Destructive,Infected Bite,Fractal,Dark Vision,Coil,230,20,80,50,60,60,500
+23,Contipoke,Pepper,World Peace,Harmonize,Fly,Swim,Eviscerate,80,35,55,45,80,5,300
+24,Sworld,Pepper,World Peace,Harmonize,Fly,Swim,Eviscerate,180,35,105,45,130,5,500
+25,Fasseruh,Chalk,Scattered Teeth,Bite,Punish,Snap,Puncture,200,300,0,0,0,0,500
+26,Naughty,Neutral,Download,Smack,Jam Burn,Faux Construct,Lightning Bolt,100,50,90,100,50,110,500
+27,Chieropterosus,Oil,Insight,Magic Missiles,Dark Vision,Rotten Apple,Abyss,200,0,0,300,0,0,500
+28,Penumbra,Oil,Horrid Insight,Infected Bite,Fractal,Dark Vision,Abyss,300,0,0,200,0,0,500
+29,Painsicle,Pepper,Burning Alive,Harmonize,Jam Burn,Fractal,Judgement,300,0,100,0,100,0,500
+30,Demideer,Pepper,Snail Breath,Scratch,Jam Burn,Demolish Spirit,Battle of Wits,50,80,20,0,80,70,300
+31,Wendipod,Pepper,Snail Breath,Scratch,Jam Burn,Demolish Spirit,Battle of Wits,100,180,20,0,130,70,500
+32,Arbiter,Chalk,Sky Eater,Magic Missiles,Buzz,Fly,Lightning Bolt,115,100,35,180,5,65,500
+33,Sinoone,Chalk,Sin Wave,Punish,Infected Bite,Smack,Coil,130,100,35,100,35,100,500
+34,Firett,Pepper,Burn Wave,Harmonize,Infected Bite,Fractal,Coil,215,50,70,50,65,50,500
+35,Shakster,Chalk,Shake,Dissolve,Jam Burn,Tea Splash,Arcane Shot,100,0,0,200,200,0,500
+36,Colophage,Pepper,Groovy,Magic Missiles,Tea Splash,Swim,Degrade Photo,80,50,20,100,10,40,300
+37,Cenura,Pepper,Groovy,Magic Missiles,Tea Splash,Swim,Degrade Photo,180,100,70,100,10,40,500
+38,Aye,Chalk,Glare Down,Lil Kicks,Dark Vision,Eye for an Eye,Steel Forge,90,160,70,40,40,100,500
+39,Aye-Aye,Chalk,Death Stare,Lil Kicks,Bigger Kicks,Eye for an Eye,Judgement,90,200,70,0,40,100,500
+40,Serpapod,Pepper,Destructive Snail,Infected Bite,Jam Burn,Demolish Spirit,Coil,165,100,50,25,95,65,500
+41,Gloombus,Chalk,Chalk Power,Punish,Lil Kicks,Bigger Kicks,Chalk Smash,100,100,100,0,0,0,300
+42,Glumber,Chalk,Chalk Power,Punish,Lil Kicks,Bigger Kicks,Chalk Smash,250,150,100,0,0,0,500
+43,Bean,Pepper,Pepper Power,Magic Missiles,Squish,Shed,Eviscerate,60,100,40,100,0,0,300
+44,Hermit,Pepper,Pepper Power,Magic Missiles,Squish,Shed,Eviscerate,160,100,40,200,0,0,500
+45,Chedder,Oil,Oil Power,Lil Kicks,Smack,Whistle,Oil Smash,60,120,30,30,0,60,300
+46,Cooler Chedder,Oil,Oil Power,Lil Kicks,Smack,Whistle,Oil Smash,70,210,40,60,0,120,500
+47,Snaddle,Pepper,Gloopy,Snail Things,Squish,Sneeze,Mollusk,100,70,150,30,150,0,500
+48,Jigbix,Chalk,Unsolved,Cantrip,Puzzle,Magic Missiles,Bone Bash,100,150,25,0,25,0,300
+49,Jigbixel,Chalk,Unsolved,Cantrip,Puzzle,Magic Missiles,Bone Bash,225,225,25,0,25,0,500
+50,Puzzazzle,Chalk,Solved,Rotten Apple,Explode,Abyss,Lightning Bolt,225,0,25,225,25,0,500
+51,Pupil,Oil,Timid,Bite,Scratch,Bark,Party Crasher,80,80,20,50,20,50,300
+52,Darkebarke,Oil,Timid,Bite,Scratch,Bark,Party Crasher,105,180,45,75,20,75,500
+53,Snaddlebarke,Oil,Gloopid,Bite,Snail Things,Bark,Party Crasher,104,125,97,52,85,37,500
+54,Grinner,Chalk,Illusionist,Cantrip,Arcane Shot,Smoke,Mirrors,100,0,100,110,100,90,500
+55,Orb,Oil,Gnashing Teeth,Bite,Ooze,Judgement,Annihilate,250,200,0,50,0,0,500
+56,Brick,Pepper,Moving Castle,Siege,Mend,Whistle,Bark,80,20,100,60,40,0,300
+57,Cemente,Pepper,Moving Castle,Siege,Mend,Whistle,Bark,80,20,300,60,40,0,500
+58,Looper,Chalk,Confusion,Cantrip,Lil Kicks,Fractal,Trick,100,50,100,100,100,50,500
+59,Cemelooper,Chalk,Castelvecchio,Warped Bricks,Mend,Fractal,Bark,90,0,50,80,255,25,500
+60,Krumbs,Pepper,Cubic Organs,Bite,Scratch,Krumble,Hunter's Mark,90,120,80,0,80,130,500
+61,Krumblefeir,Oil,Bottomless Stomach,Bite,Slime,Ooze,Annihilate,90,230,80,60,40,0,500
+62,Slamcrolla,Oil,Web Trap,Chalk Silk,Web Weave,Crolla Gambit,Coup de grace,150,0,180,0,0,170,500
+63,Kralt,Pepper,Stock Broker,Snap,Buyout,Invest,Loan,200,110,70,0,70,50,500
+64,Fearfire,Oil,Black Fire,Fractal,Dark Vision,Jam Burn,Abyss,300,0,0,200,0,0,500
+65,Goombire,Chalk,Loud Breather,Punish,Slam,Squish,Judgement,130,130,80,50,50,40,480
+66,Moskeeter,Chalk,Blood Mark,Lil Kicks,Suck,Swim,Dynamics,130,100,80,100,50,40,500
+67,Dodecahedron,Glitch,12-Sided,Hedron,Overwrite,Error,Debug,300,200,0,0,0,0,500
+68,Qos,Pepper,Gas-Filled,Jelly,Jam Burn,Fly,Dynamics,100,0,20,80,100,0,300
+69,Quaso,Pepper,Gas-Filled,Jelly,Jam Burn,Fly,Dynamics,200,0,20,80,200,0,500
+70,Ancient Robot Warrior,Chalk,Ancient Coil,Cantrip,Fractal,Lightning Bolt,Degrade Photo,100,0,200,180,20,0,500
+71,Shakeloon,Chalk,Shake-Filled,Dissolve,Jam Burn,Tea Splash,Arcane Shot,100,0,0,100,300,0,500
+72,Gleroff,Chalk,Lampshade,Cantrip,Punish,Glare,Eye for an Eye,70,70,25,70,25,40,300
+73,Glereis,Chalk,Lampshade,Cantrip,Punish,Glare,Eye for an Eye,100,130,50,130,50,40,500
+74,Confoun,Oil,Black Light,Punish,Dark Vision,Glare,Eye for an Eye,200,65,25,165,25,20,500
+75,Enigmastelf,Oil,Final Question,Dark Vision,Crush,Glare,Riddle,200,0,25,200,75,0,500
+76,Flot,Oil,Witch's Hex,Cantrip,Magic Missiles,Minor Curse,Rotten Apple,50,0,0,75,100,75,300
+77,Floatus,Oil,Witch's Hex,Cantrip,Magic Missiles,Minor Curse,Rotten Apple,150,0,0,135,110,105,500
+78,Zenithexus,Pepper,Crystalize,Magic Missiles,Crush,Arcane Shot,Vaporize,200,0,100,100,100,0,500
+79,Thad,Pepper,Calculator,Magic Missiles,Lil Kicks,Arcane Shot,Vaporize,50,0,80,50,100,20,300
+80,Throdus,Pepper,Calculator,Magic Missiles,Lil Kicks,Arcane Shot,Vaporize,100,0,95,150,110,45,500
+81,Throfloa,Oil,Abacus,Minor Curse,Magic Missiles,Lil Kicks,Vaporize,125,0,47,143,110,75,500
+82,Hatleg,Chalk,Smallest Kick,Lil Kicks,Bigger Kicks,Biggest Kicks,Stomp,500,0,0,0,0,0,500
+83,Tap,Chalk,Flowers,Chow,Sniff,Squeak,Cheese,80,0,15,120,55,30,300
+84,Squeakums,Chalk,Flowers,Chow,Sniff,Squeak,Cheese,130,0,15,170,155,30,500
+85,Crimble Crawler,Pepper,Scuttler,Strike,Lil Kicks,Yelp,Demolish Spirit,100,175,50,25,50,100,500
+86,Hatmancer,Chalk,Hat Trick,Cantrip,Lil Kicks,Trick,Mirrors,100,0,100,100,100,100,500
+87,Cethancer,Pepper,Groovy Trick,Cantrip,Magic Missiles,Lil Kicks,Degrade Photo,140,50,85,100,55,70,500
+88,Slithleprint,Oil,Venomous Fangs,Infected Bite,Bite,Glare,Demolish Spirit,60,100,0,80,0,60,300
+89,Snate,Oil,Venomous Fangs,Infected Bite,Bite,Glare,Demolish Spirit,60,200,0,150,0,90,500
+90,Blossum,Pepper,Share Snacks,Hug,Bite,Chow,Stomp,180,40,10,40,10,20,300
+91,Plum,Pepper,Share Snacks,Hug,Bite,Chow,Stomp,280,120,20,40,20,20,500
+92,Umeshu,Pepper,Share Stocks,Hug,Buyout,Invest,Stomp,240,135,45,0,45,35,500
+93,Jelintagoos,Chalk,Chalk Jelly,Bone Bash,Dissolve,Biggest Kicks,Explode,200,0,0,0,300,0,500
+94,Voracious,Oil,Tooth Swarm,Bite,Crush,Judgement,Annihilate,300,200,0,0,0,0,500
+95,Apeirogon,Glitch,Infinite-Sided,Bite,Hedron,Overwrite,Judgement,300,200,0,0,0,0,500
+96,Sneeptoben,Pepper,Snackbush,Magic Missiles,Pie Knife,Eviscerate,Forage,110,62,102,154,40,32,500
+97,Neaukums,Neutral,Digital Flowers,Chow,Faux Construct,Sniff,Lightning Bolt,115,25,52,135,103,70,500
+98,L053R,Pepper,Spiked Coil,Cantrip,Puncture,Jam Burn,Lightning Bolt,150,0,200,90,35,25,500
+99,Backlurker,Oil,Double Back,Scratch,Smack,Fractal,Eviscerate,100,163,92,0,75,70,500
+100,Cyurbe,Chalk,Smug,Punish,Smack,Yell,Rotten Apple,95,110,75,110,60,50,500
+101,Gasper,Oil,Sickly,Bite,Smack,Sneeze,Cough,100,110,55,105,55,75,500
+102,Marter,Oil,Smoke Factory,Plonk,Minor Curse,Steel Mechanism,Pepper Smoke,50,50,50,50,50,50,300
+103,Savior,Oil,Smoke Factory,Plonk,Minor Curse,Steel Mechanism,Pepper Smoke,100,80,80,80,80,80,500
+104,Martithex,Oil,Crystalized Smoke,Magic Missiles,Minor Curse,Arcane Shot,Pepper Smoke,150,40,90,90,90,40,500
+105,Targus,Oil,No Mercy,Bite,Punish,Hunter's Mark,Annihilate,150,100,60,50,60,80,500
+106,Goamb,Chalk,Hair Climber,Lil Kicks,Goatee,Yell,Stampede,100,100,25,25,50,200,500
+107,Targoambus,Oil,Tangled Hair,Bite,Goatee,Annihilate,Stampede,125,100,42,38,55,140,500
+108,Ayeimble Ayambler,Pepper,Death Scuttle,Strike,Lil Kicks,Demolish Spirit,Judgement,95,188,60,12,45,100,500
+109,Catacrisp,Pepper,Salty Snacks,Strike,Scratch,Meow,Running Slice,60,100,40,100,0,0,300
+110,Cheetoh,Pepper,Salty Snacks,Strike,Scratch,Meow,Running Slice,110,150,40,100,0,100,500
+111,Facelbroche,Chalk,Breath Theft,Punish,Demolish Spirit,Sneeze,Glare,150,150,50,50,35,65,500
+112,Mercury,Oil,False Jaw,Bite,Chow,Lil Kicks,Devour,100,120,50,50,30,150,500
+113,Merkeeter,Chalk,False Mark,Chow,Suck,Dynamics,Devour,115,90,65,95,40,95,500
+114,Eggnogg,Chalk,Egg?,Chow,Slime,Sniff,Yelp,100,110,80,90,70,50,500
+115,Cheggnogg,Chalk,Egg Snacks?,Chow,Scratch,Slime,Running Slice,105,130,60,95,35,75,500
+116,Smuggle,Chalk,Sickly Smug,Punish,Smack,Slime,Cough,97,110,65,109,57,62,500
+117,Welerin,Oil,Guilty,Minor Curse,Cantrip,Obscure Idealogy,Eye for an Eye,150,0,50,200,50,50,500
+118,Sesuko,Chalk,Elixir,Magic Missiles,Cantrip,Mend,Rose Healing,100,50,50,200,50,50,500
+119,Opher,Chalk,Rose Child,Minor Curse,Cantrip,Magic Missiles,Obscure Idealogy,125,25,50,200,50,50,500
+120,Grittleself,Oil,Final Illusion,Cantrip,Dark Vision,Smoke,Riddle,150,0,62,156,87,45,500
+121,Oilbrew,Oil,Venomous Tea,Infected Bite,Bite,Tea Splash,Chronomancy,75,105,50,170,5,95,500
+122,Plushfish,Oil,Sturdy Wall,Minor Curse,Fractal,Steel Forge,Stomp,100,0,150,50,0,0,300
+123,Wallfish,Oil,Sturdy Wall,Minor Curse,Fractal,Steel Forge,Stomp,225,0,100,100,75,0,500
+124,Workle,Pepper,Magic Coral,Magic Missiles,Fractal,Mollusk,Faux Construct,100,0,75,50,75,0,300
+125,Korwal,Pepper,Magic Coral,Magic Missiles,Fractal,Mollusk,Faux Construct,225,0,100,75,100,0,500
+126,Korwallfish,Pepper,Coral Wall,Magic Missiles,Fractal,Steel Forge,Mollusk,225,0,138,75,62,0,500
+127,Dicenom,Chalk,Chaos Eater,Bite,Chow,Glare,Devour,60,100,40,50,25,25,300
+128,Deforturix,Chalk,Chaos Eater,Bite,Punish,Judgement,Devour,200,150,0,0,150,0,500
+129,Raziorqueo,Chalk,Unfathomable Arbiter,Punish,Hunter's Mark,Eye for an Eye,Judgement,249,107,0,0,144,0,500
+130,Nar Nar,Chalk,Unstable Explosive,Lil Kicks,Bigger Kicks,Explode,Stomp,300,0,0,0,0,0,300
+131,Narnar Narnar,Chalk,Explosive,Lil Kicks,Bigger Kicks,Explode,Stomp,500,0,0,0,0,0,500
+132,Narnillapodimus,Chalk,Stable Explosive,Lil Kicks,Bigger Kicks,Explode,Stomp,500,0,0,0,0,0,500
+133,Infectant,Pepper,Pepper Parasite,Magic Missiles,Squish,Trick,Eviscerate,150,110,50,110,5,75,500
+134,Swootzadore,Pepper,Brittle World,Harmonize,Fractal,Eviscerate,Steel Forge,142,85,97,82,77,17,500
+135,4400,Glitch,11001010,Debug,Debug,Debug,Debug,90,80,80,90,80,80,500
+136,4461,Glitch,11001010,Debug,Debug,Debug,Debug,90,80,80,90,80,80,500
+137,Luvbug,Pepper,Lover,Hug,Suck,Strike,Devour,50,150,80,40,80,100,500
+138,Seraph,Oil,Bottomless Love,Bite,Hug,Suck,Annihilate,130,140,80,50,60,50,510
+139,Drodin,Chalk,Spin,Plonk,Cantrip,Smack,Chalk Smash,100,100,120,100,60,20,500
+140,Hashanah,Pepper,Festive Snack,Magic Missiles,Cantrip,Smack,Pie Knife,110,62,112,154,45,17,500
+141,Jackeleon,Oil,Cursed Candy,Minor Curse,Magic Missiles,Trick,Rotten Apple,200,0,100,100,35,65,500
+142,J4CK3L30N,Oil,Ancient Candy,Minor Curse,Cantrip,Rotten Apple,Lightning Bolt,150,0,150,141,27,32,500
+143,Solstine,Pepper,Gift,Harmonize,Cantrip,Smack,Forage,100,50,100,50,100,100,500
+144,Patron of Winter,Pepper,Wonderful Gift,Harmonize,Smack,Arcane Shot,Forage,200,25,125,25,125,0,500
+145,Calavera,Pepper,Flowers for the Dead,Harmonize,Strike,Bone Bash,Annihilate,90,100,70,105,30,105,500
+146,Cempasuchil,Pepper,Flower Effigy,Bone Bash,Dark Flowers,Engulf,Explode,200,0,0,0,300,0,500
+147,Poffle,Pepper,Firecracker,Magic Missiles,Cantrip,Minor Curse,Vaporize,50,0,10,300,45,95,500
+148,Lawffle,Chalk,Money Maker,Magic Missiles,Cantrip,Fly,Buzz,70,0,10,281,27,112,500
+149,Subscrish,Pepper,Subscribe,Magic Missiles,Digital Inflow,Squish,Smack,0,150,0,150,0,200,500
+150,Prawnell,Pepper,Shrimp,Plonk,Strike,Slime,Shed,90,95,85,70,85,75,500
+151,Prawnish,Pepper,Power Shrimp,Plonk,Digital Inflow,Squish,Shed,45,122,29,125,42,137,500
+152,Kittea,Oil,Mug,Cantrip,Minor Curse,Tea Splash,Jam Burn,50,0,250,0,0,0,300
+153,Catalaxy,Oil,Tipped Over,Cantrip,Minor Curse,Tea Splash,Jam Burn,100,0,0,300,0,100,500
+154,Dust,Chalk,Astromancy,Cantrip,Magic Missiles,Arcane Shot,Lightning Bolt,50,25,25,125,0,75,300
+155,Starking,Chalk,Astromancy,Cantrip,Magic Missiles,Arcane Shot,Lightning Bolt,150,0,100,150,75,25,500
+156,Star Czar,Oil,Ruler of the Cosmos,Cantrip,Minor Curse,Arcane Shot,Lightning Bolt,100,0,50,250,38,62,500
+157,Jitterbugs,Pepper,Jazz,Melody,Hi-Hats,Build up,Payoff,100,0,100,200,100,0,500
+158,Jitterbricks,Pepper,Castle Jazz,Siege,Hi-Hats,Whistle,Build up,90,0,200,140,70,0,500
+159,Goombse,Pepper,Jelly,Squish,Jelly,Ooze,Share Pie,100,80,80,80,80,80,500
+160,Goombsimet,Pepper,Acolyte of Jelly,Squish,Fly,Share Pie,Lightning Bolt,120,45,70,185,40,40,500
+161,Skibrocheler,Oil,Jaw Thief,Bite,Demolish Spirit,Judgement,Retaliate,145,215,25,0,10,105,500
+162,Lettoise,Pepper,Charm,Puncture,Lil Kicks,Sneeze,Fractal,100,0,300,100,0,0,500
+163,Flamoisse,Pepper,Burning Charm,Harmonize,Jam Burn,Sneeze,Fractal,200,0,200,50,50,0,500
+164,Ares,Chalk,Healing Stars,Harmonize,Punish,Forage,Stampede,100,200,0,100,0,100,500
+165,Tau,Pepper,Strong Stars,Harmonize,Strike,Smack,Stampede,50,200,0,100,0,150,500
+166,Gemi,Oil,Twin Stars,Bite,Arcane Shot,Lightning Bolt,Annihilate,150,0,100,0,100,150,500
+167,Dancer,Pepper,Crabby Star,Snap,Punish,Annihilate,Demolish Spirit,175,300,0,0,25,0,500
+168,Leon,Chalk,Courageous Star,Harmonize,Punish,Bark,Stampede,150,100,25,100,25,100,500
+169,Vir,Oil,Lady Star,Magic Missiles,Minor Curse,Tea Splash,Arcane Shot,125,0,0,200,100,75,500
+170,Lira,Chalk,Star Judge,Snap,Punish,Eye for an Eye,Judgement,100,100,150,0,150,0,500
+171,Scorp,Pepper,Star Scorpion,Poke,Sting,Demolish Spirit,Judgement,100,300,0,0,0,100,500
+172,Sagg,Oil,Starcher,Cantrip,Magic Missiles,Dark Missiles,Arcane Shot,50,100,0,250,0,100,500
+173,Caprese,Chalk,Star Blessings,Cantrip,Magic Missiles,Vaporize,Lightning Bolt,50,0,0,300,0,150,500
+174,Aqua,Pepper,Jar of Water,Cantrip,Magic Missiles,Tea Splash,Jam Burn,0,0,0,300,200,0,500
+175,Pishes,Oil,Fast Swimmers,Agile Bite,Strike,Approach,Devour,50,300,0,0,0,150,500
+176,Abaddon,Oil,The Prince,Dark Missiles,Abyss,Lightning Bolt,Vaporize,200,0,100,100,100,0,500
+177,Upside Down Chedder,Oil,Oily Kicks,Lil Kicks,Smack,Oil Smash,Stomp,285,105,20,30,0,60,500
+178,Krumscrolla,Pepper,Cubic Trap,Chalk Silk,Krumble,Web Weave,Coup de Grace,120,100,130,0,0,150,500
+179,Fluff,Pepper,Growing Horns,Hug,Stunning Horns,Scratch,Annihilate,30,100,50,20,0,100,300
+180,Ruffle,Pepper,Growing Horns,Hug,Stunning Horns,Scratch,Annihilate,50,180,50,40,0,180,500
+181,Kitsquitea,Chalk,Best Friends,Cantrip,Minor Curse,Tea Splash,Purr,100,100,300,0,0,0,500
+182,Vos,Oil,Brain Scramble,Plonk,Minor Curse,Dread,Arcane Shot,40,50,5,90,55,60,300
+183,Animo,Oil,Brain Scramble,Plonk,Minor Curse,Dread,Arcane Shot,60,100,25,150,75,90,500
+184,Illuc,Oil,Mind Horns,Plonk,Stunning Horns,Dread,Annihilate,55,141,37,95,37,135,500
+185,2182,Glitch,22002022,Cantrip,Tea Splash,Debug,Debug,45,75,265,0,40,75,500
+186,Frodder,Chalk,Hand Cannon,Citrus Fruit,Punish,Lock 'n Load,Demolish Spirit,200,100,0,0,0,0,300
+187,Croaklop,Chalk,Cannon,Citrus Fruit,Punish,Lock 'n Load,Demolish Spirit,300,150,0,0,50,0,500
+188,Skipstrap,Pepper,Nectar Drinker,Citrus Fruit,Strike,Suck,Running Slice,100,80,0,0,20,100,300
+189,Stumblebuckler,Pepper,Nectar Drinker,Citrus Fruit,Strike,Suck,Running Slice,100,200,0,0,20,180,500
+190,Cannol,Chalk,Nectar Cannoneer,Citrus Fruit,Punish,Strike,Running Slice,200,175,0,0,35,90,500
