@@ -3,12 +3,11 @@ extends Node
 
 var prefix = "GG2."
 var args : Dictionary = {
-	"INFO" : funcref(self,"cmd_info")
+	"INFO" : funcref(self,"cmd_info"),
+	"SLEEP" : funcref(self,"cmd_sleep"),
+	"MOVE" : funcref(self,"cmd_move"),
+	"KITTEA" : funcref(self,"cmd_kittea")
 	}
-var cats : Dictionary = {
-	"sad cat" : ('\u002f'+'\u1420'+'\uff61'+'\u2038'+'\uff61'+'\u141f'+'\u005c'),
-	"angry cat" : ('\u1c9a'+'\u0028'+'\u003d'+'\u2180'+'\u03c9'+'\u2180'+'\u003d'+'\u0029'+'\u10da'),
-}
 
 
 func construct_message(input):
@@ -39,11 +38,14 @@ func scan_message(message : String, timer : float) -> Dictionary:
 						returnData = yield(returnData, "completed")
 					return returnData
 				else:
-					return {"content" : (cats["angry cat"] + "   No goomble specified!")}
+					Global.header = ["Content-Type: application/json"]
+					return {"content" : (Global.cats["angry cat"] + "   Kittea expected more!")}
 			else:
-				return {"content" : (cats["sad cat"] + "   Kittea could not understand...")}
+				Global.header = ["Content-Type: application/json"]
+				return {"content" : (Global.cats["sad cat"] + "   Kittea could not understand...")}
 		else: 
-			return {"content" : (cats["angry cat"] + "   Rowr, please wait!")}
+			Global.header = ["Content-Type: application/json"]
+			return {"content" : (Global.cats["angry cat"] + "   Rowr, please wait!")}
 	return {}
 
 
@@ -52,3 +54,28 @@ func cmd_info(name : String) -> Dictionary:
 	if tempData is GDScriptFunctionState:
 		tempData = yield(tempData, "completed")
 	return tempData
+
+
+func cmd_move(name : String) -> Dictionary:
+	var tempData = get_tree().get_root().get_node("Core").call("create_move", name)
+	if tempData is GDScriptFunctionState:
+		tempData = yield(tempData, "completed")
+	return tempData
+
+
+func cmd_sleep(timed : String) -> Dictionary:
+	Global.header = ["Content-Type: application/json"]
+	if (int(get_parent().maindict["d"]["author"]["id"]) == 197210221406453762) and \
+		int(get_parent().maindict["d"]["author"]["discriminator"]) == 0404:
+		Global.sleepcounter = int(timed) * 60
+		return {"content" : (Global.cats["purr cat"] + "   Kittea will go to sleep in "+ timed +" seconds.")}
+	else:
+		return {"content" : (Global.cats["purr cat"] + "   Kittea yawned.")}
+
+
+func cmd_kittea(pat : String) -> Dictionary:
+	Global.header = ["Content-Type: application/json"]
+	if pat == "headpat":
+		return {"content" : Global.pixelCat}
+	else:
+		return {"content" : Global.cats["meow cat"]}

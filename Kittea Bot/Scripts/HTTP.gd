@@ -10,6 +10,9 @@ var last_sequence : float
 var ping_interval : float
 var heartbeat_ack_received : bool = true
 var invalid_session_resumable : bool
+var headers
+var channel_id
+var maindict
 
 onready var clock = $pingTimer
 onready var invalid_clock = $invalidTimer
@@ -18,6 +21,7 @@ onready var cmdList = preload("res://Scripts/Commands.gd").new()
 
 
 func _ready() -> void:
+	add_to_group("httpcall")
 	add_child(cmdList)
 	oauth = load_key()
 	randomize()
@@ -46,20 +50,20 @@ func _on_data_received() -> void:
 	var packet := client.get_peer(1).get_packet()
 	var data := packet.get_string_from_utf8()
 	var json_parsed := JSON.parse(data)
-	var dict : Dictionary = json_parsed.result
-	var op := str(dict["op"])
+	maindict = json_parsed.result
+	var op := str(maindict["op"])
 	print(op)
 	match op:
 		"0": #Opcode 0 (Events)
-			handle_events(dict)
+			handle_events(maindict)
 		"9": #Opcode 9 Invalid session
-			invalid_session_resumable = dict["d"]
+			invalid_session_resumable = maindict["d"]
 			invalid_clock.one_shot = true
 			invalid_clock.wait_time = rand_range(1,5)
 			invalid_clock.start()
 		"10": #Opcode 10 Hello
 			#Establish ping
-			ping_interval = dict["d"]["heartbeat_interval"]
+			ping_interval = maindict["d"]["heartbeat_interval"]
 			clock.wait_time = ping_interval / 1000
 			clock.start()
 			#Return Opcode 2 Identify to Gateway
@@ -93,20 +97,16 @@ func handle_events(dict : Dictionary):
 		"READY":
 			session_id = dict["d"]["session_id"]
 		"MESSAGE_CREATE":
-			Global.header_embed = false
-			var headers
-			var channel_id = dict["d"]["channel_id"]
+			Global.passthrough = false
+			headers = ["Authorization: Bot %s" % oauth]
+			channel_id = dict["d"]["channel_id"]
 			var message_content = dict["d"]["content"]
 			var reply = cmdList.scan_message(message_content,cdr_clock.get_time_left())
 			if reply is GDScriptFunctionState: # Still working.
 				reply = yield(reply, "completed")
 			if !reply.empty():
-				var query : String = JSON.print(reply)
-				print(str(query))
-				if Global.header_embed:
-					headers = ["Authorization: Bot %s" % oauth, "Content-Type: application/json"]
-				else:
-					headers = ["Authorization: Bot %s" % oauth, "Content-Type: application/json"]
+				headers.append_array(Global.header)
+				var query : String = JSON.print(reply) if !Global.passthrough else reply
 				request("https://discordapp.com/api/v6/channels/%s/messages" % channel_id, headers, true, HTTPClient.METHOD_POST, query)
 				cdr_clock.one_shot = true
 				cdr_clock.wait_time = 3
@@ -148,3 +148,7 @@ func load_key() -> String:
 	else:
 		return ""
 
+
+func replace_header(entry):
+	print("FIRST: "+str(entry))
+	headers = ["Authorization: Bot %s" % oauth, entry[0]]

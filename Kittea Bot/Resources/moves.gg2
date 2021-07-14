@@ -1,0 +1,122 @@
+Name,Cost (%),Type,Damage,Effect
+Scratch,20,Chalk,Deals Chalk physical damage (100% strength) (20% speed).,Does not inflict status.
+Suck,40,Chalk,Deals Chalk physical damage (100% strength). ,Inflicts status on self. Ally hp truly changes by (20% strength) (0.5 per level).
+Fly,40,Neutral,Deals no damage.,Inflicts status on self. Ally speed truly changes by (30% magic) (1 per level).  Inflicts status on self. Ally strength truly changes by (35% magic) (0.5 per level).
+Buzz,60,Chalk,Deals no damage.,Inflicts status on enemy. Enemy strength magically changes by (-80% magic) (-2.5 per level).
+Puncture,30,Pepper,Deals Pepper physical damage (50% defense).,Does not inflict status.
+Lil Kicks,40,Chalk,Deals Chalk physical damage (15% enemy's hp) (30% strength). Deals Chalk physical damage (15% enemy's hp) (30% strength).,Does not inflict status.
+Jam Burn,60,Pepper,Deals no damage.,Inflicts status on enemy. Enemy hp magically changes by (-50% magic) (-0.5 per level) at the end of the round. lasts 5 rounds.
+Sharpen,90,Pepper,Deals no damage.,Inflicts status on self. Ally strength truly changes by (100% magic) (3 per level).
+Annihilate,60,Oil,Deals Oil physical damage (200% strength). ,Inflicts status on self. Ally hp truly changes by (-100% max hp).
+Judgement,80,Oil,Deals no damage.,Inflicts status on enemy. Enemy hp physically changes by (-70% strength) (-1 per level) at the start of the round. lasts 5 rounds.
+Bite,10,Oil,Deals Oil physical damage (100% strength).,Does not inflict status.
+Ooze,40,Oil,Deals Oil magic damage (30% magic). ,Inflicts status on enemy. Enemy speed magically changes by (-100% magic) (-1 per level).
+Magic Missiles,15,Pepper,Deals Pepper magic damage (33% magic). Deals Pepper magic damage (33% magic). Deals Pepper magic damage (33% magic).,Does not inflict status.
+Purr,0,Neutral,Deals no damage.,Inflicts status on self. Ally speed truly changes by (1 per level).
+Pie Knife,40,Neutral,Deals Neutral physical damage (100% strength) (100% magic).,Does not inflict status.
+Forage,100,Neutral,Deals no damage.,Inflicts status on self. Ally hp truly changes by (75% max hp).
+Steel Forge,100,Oil,Deals no damage.,Inflicts status on self. Ally defense truly changes by (50% magic) (1 per level).  Inflicts status on self. Ally magic truly changes by (50% magic) (2.5 per level).
+Fractal,40,Oil,Deals Oil magic damage (30% magic). Deals Oil physical damage (40% magic). ,Inflicts status on enemy. Enemy hp magically changes by (-55% magic) (-1 per level) at the end of the round. lasts 2 rounds.
+Faux Construct,40,Neutral,Deals Neutral physical damage (80% magic). Deals Neutral magic damage (40% magic).,Does not inflict status.
+Smack,35,Oil,Deals Oil physical damage (80% strength) (50% magic). ,Inflicts status on enemy. Enemy defense magically changes by (-40% magic) (-0.5 per level).
+Punish,20,Chalk,Deals Chalk physical damage (110% strength).,Does not inflict status.
+Demolish Spirit,80,Pepper,Deals Pepper physical damage (140% strength).,Does not inflict status.
+Obscure Idealogy,90,Oil,Deals no damage.,Inflicts status on enemy. Enemy hp magically changes by (-100% magic) (-3 per level) on using a spell. lasts 5 rounds.
+Eye for an Eye,90,Pepper,Deals no damage., Inflicts status on enemy. Enemy hp physically changes by (Enemy's -130% strength) (-2 per level) on using a spell. lasts 5 rounds. 
+Battle of Wits,70,Pepper,Deals no damage.,Inflicts status on enemy. Enemy strength truly sets to (Enemy's 100% magic).
+Digital Inflow,20,Chalk,Deals Chalk magic damage (70% magic) (50% speed).,Does not inflict status.
+Krumble,20,Pepper,Deals Pepper physical damage (100% strength) (20% speed).,Does not inflict status.
+Tea Splash,40,Neutral,Deals Neutral magic damage (170% magic).,Does not inflict status.
+Chronomancy,100,Pepper,Deals Pepper magic damage (150% magic) (100% speed).,Does not inflict status.
+Bone Bash,20,Chalk,Deals Chalk physical damage (20% enemy's max hp).,Does not inflict status.
+Engulf,40,Oil,Deals Oil magic damage (25% hp) (45% magic).,Does not inflict status.
+Explode,100,Pepper,Deals no damage.,Inflicts status on enemy. Enemy hp magically changes by (-100% max hp) at the start of the round. has 1 charge.  Inflicts status on self. Ally hp truly changes by (-100% max hp) at the end of the round.
+Eviscerate,90,Pepper,Deals Pepper physical damage (180% strength). Deals Pepper magic damage (180% magic).,Does not inflict status.
+Hunter's Mark,60,Pepper,Deals no damage.,Inflicts status on enemy. Enemy hp truly changes by (-10% strength) (-1 per level) on taking physical damage. lasts 10 rounds.
+Retaliate,60,Neutral,Deals no damage.,Inflicts status on self. Enemy hp physically changes by (-200% strength) (-1 per level) on taking physical damage. has 1 charge. has 1 round.
+Dynamics,100,Chalk,Deals Chalk magic damage (150% magic) (150% speed).,Does not inflict status.
+Trick,40,Chalk,Deals Chalk physical damage (130% enemy's speed).,Does not inflict status.
+Swim,40,Neutral,Deals no damage.,Inflicts status on self. Ally speed truly changes by (30% magic) (1 per level).  Inflicts status on self. Ally magic truly changes by (20% magic) (1.25 per level).
+Arcane Shot,50,Chalk,Deals Chalk magic damage (140% magic). ,Inflicts status on enemy. Enemy magic defense magically changes by (-5% magic) (-0.7 per level).
+Lightning Bolt,90,Chalk,Deals Chalk magic damage (200% magic). ,Inflicts status on enemy. Enemy speed magically changes by (-100% magic) (-1 per level).
+Dark Vision,40,Oil,Deals Oil magic damage (100% magic). ,Inflicts status on enemy. Enemy magic defense magically changes by (-15% magic) (-1.5 per level).
+Coil,100,Oil,Deals no damage.,Inflicts status on self. Ally hp truly changes by (75% max hp).
+Infected Bite,10,Oil,Deals Oil magic damage (90% magic) (10% strength).,Does not inflict status.
+Harmonize,10,Pepper,Deals Pepper physical damage (60% strength). Deals Pepper magic damage (60% magic).,Does not inflict status.
+Rotten Apple,80,Oil,Deals no damage.,Inflicts status on enemy. Enemy hp magically changes by (-30% magic) (-1 per level) at the end of the round.
+Abyss,90,Oil,Deals Oil magic damage (300% magic).,Does not inflict status.
+Degrade Photo,90,Pepper,Deals no damage.,Inflicts status on enemy. Enemy strength magically changes by (-25% magic) (-1 per level).  Inflicts status on enemy. Enemy defense magically changes by (-25% magic) (-1 per level).  Inflicts status on enemy. Enemy magic defense magically changes by (-25% magic) (-1 per level).  Inflicts status on enemy. Enemy speed magically changes by (-25% magic) (-1 per level).  Inflicts status on enemy. Enemy magic magically changes by (-25% magic) (-1 per level).
+Bigger Kicks,60,Chalk,Deals Chalk physical damage (25% enemy's hp) (40% strength). Deals Chalk physical damage (25% enemy's hp) (40% strength).,Does not inflict status.
+Yell,60,Chalk,Deals no damage.,Inflicts status on self. Ally strength truly changes by (50% magic) (2 per level).
+Chalk Smash,80,Chalk,Deals Chalk physical damage (140% strength).,Does not inflict status.
+Shed,60,Pepper,Deals Pepper magic damage (100% magic). ,Inflicts status on enemy. Enemy defense magically changes by (-70% magic) (-1 per level).
+Squish,35,Pepper,Deals Pepper physical damage (80% strength) (50% magic). ,Inflicts status on enemy. Enemy defense magically changes by (-40% magic) (-0.5 per level).
+Whistle,60,Oil,Deals no damage.,Inflicts status on enemy. Enemy strength magically changes by (-100% magic) (-1 per level).
+Oil Smash,80,Oil,Deals Oil physical damage (140% strength).,Does not inflict status.
+Snail Things,10,Pepper,Deals Pepper physical damage (120% strength). ,Inflicts status on self. Ally speed truly changes by (30% magic) (-2 per level).
+Sneeze,40,Neutral,Deals no damage.,Inflicts status on enemy. Enemy hp magically changes by (-35% magic) (-1 per level) at the end of the round. lasts 5 rounds.
+Mollusk,40,Neutral,Deals no damage.,Inflicts status on self. Ally hp truly changes by (40% magic) (1.5 per level).
+Puzzle,20,Chalk,Deals no damage.,Inflicts status on self. Ally strength truly changes by (25% magic) (0.5 per level).
+Cantrip,15,Chalk,Deals Chalk magic damage (100% magic).,Does not inflict status.
+Bark,60,Oil,Deals Oil magic damage (100% magic). ,Inflicts status on enemy. Enemy defense magically changes by (-70% magic) (-0.5 per level).
+Party Crasher,100,Pepper,Deals no damage.,Inflicts status on enemy. Enemy max hp truly changes by (Enemy's -80% max hp).
+Smoke,50,Oil,Deals Oil magic damage (140% magic). ,Inflicts status on enemy. Enemy strength magically changes by (-20% magic) (-1 per level).
+Mirrors,100,Pepper,Deals Neutral physical damage (300% enemy's strength). Deals Neutral magic damage (300% enemy's magic). ,Inflicts status on self. Ally defense truly changes by (50% magic) (1 per level).
+Mend,40,Oil,Deals no damage.,Inflicts status on self. Ally hp truly changes by (50% magic).
+Siege,10,Pepper,Deals Pepper magic damage (20% magic) (20% defense). ,Inflicts status on self. Ally hp truly changes by (10% magic) (0.5 per level).
+Warped Bricks,10,Chalk,Deals Chalk magic damage (20% magic) (20% magic defense). ,Inflicts status on self. Ally hp truly changes by (10% magic) (0.5 per level).
+Slime,40,Pepper,Deals Pepper physical damage (50% strength). ,Inflicts status on enemy. Enemy hp magically changes by (-20% magic) (-1 per level) at the end of the round. lasts 5 rounds.
+Chalk Silk,30,Chalk,Deals Chalk physical damage (30% defense). ,Inflicts status on enemy. Enemy speed physically changes by (-20% defense) (-0.5 per level).
+Coup de grace,100,Neutral,Deals Neutral true damage (200% speed) (-200% enemy's speed).,Does not inflict status.
+Snap,10,Pepper,Deals Pepper physical damage (100% strength).,Does not inflict status.
+Invest,100,Oil,Deals no damage.,Inflicts status on self. Ally hp truly changes by (-30% magic) (-3 per level).  Inflicts status on self. Ally hp truly changes by (30% magic) (2 per level) at the start of the round.
+Loan,100,Oil,Deals no damage.,Inflicts status on enemy. Enemy hp truly changes by (100% magic) (4 per level).  Inflicts status on enemy. Enemy hp truly changes by (-30% magic) (-2 per level) at the start of the round.
+Buyout,40,Pepper,Deals Pepper magic damage (20% hp) (60% strength).,Does not inflict status.
+Slam,20,Neutral,Deals Neutral physical damage (100% strength) (20% enemy's max hp).,Does not inflict status.
+Glare,30,Oil,Deals no damage.,Inflicts status on enemy. Enemy strength magically changes by (-60% magic) (-0.5 per level).
+Hedron,10,Glitch,Deals Glitch physical damage (100% strength).,Does not inflict status.
+Stunning Horns,20,Pepper,Deals Pepper physical damage (50% strength). ,Inflicts status on enemy. Enemy strength truly sets to (Enemy's 100% strength) at the end of the round. has 1 round. Inflicts status on enemy. Enemy strength truly sets to (Enemy's 5% strength).
+Error,80,Glitch,Deals Glitch physical damage (140% strength).,Does not inflict status.
+Debug,100,Glitch,Deals no damage.,Inflicts status on enemy. Enemy strength truly sets to at the start of the round. lasts 2 rounds.  Inflicts status on enemy. Enemy magic truly sets to at the start of the round. lasts 2 rounds.  Inflicts status on self. Ally hp truly changes by (-100% max hp) at the end of the round.
+Overwrite,40,Glitch,Deals Glitch physical damage (20% hp) (60% strength).,Does not inflict status.
+Jelly,40,Pepper,Deals Pepper magic damage (25% magic) (25% magic defense). ,Inflicts status on enemy. Enemy speed magically changes by (-100% magic) (-1 per level).
+Riddle,100,Oil,Deals Oil magic damage (300% magic). ,Inflicts status on enemy. Enemy magic defense magically changes by (-50% magic) (-2 per level).
+Crush,40,Oil,Deals Oil physical damage (25% hp) (45% magic).,Does not inflict status.
+Minor Curse,15,Oil,Deals Oil magic damage (50% magic). ,Inflicts status on enemy. Enemy hp magically changes by (-30% magic) at the end of the round. lasts 2 rounds.
+Vaporize,90,Pepper,Deals Pepper magic damage (300% magic).,Does not inflict status.
+Biggest Kicks,80,Chalk,Deals Chalk physical damage (35% enemy's hp) (50% strength). Deals Chalk physical damage (35% enemy's hp) (50% strength).,Does not inflict status.
+Stomp,100,Neutral,Deals Neutral physical damage (50% enemy's max hp) (30% strength).,Does not inflict status.
+Chow,15,Chalk,Deals Chalk magic damage (80% magic) (30% strength).,Does not inflict status.
+Sniff,60,Chalk,Deals Chalk magic damage (150% magic). ,Inflicts status on enemy. Enemy magic defense magically changes by (-20% magic) (-0.5 per level).
+Squeak,60,Chalk,Deals no damage.,Inflicts status on self. Ally strength truly changes by (80% magic) (1 per level).
+Cheese,100,Chalk,Deals no damage.,Inflicts status on self. Ally hp truly changes by (150% magic).
+Strike,20,Pepper,Deals Pepper physical damage (60% strength) (40% speed).,Does not inflict status.
+Yelp,60,Pepper,Deals Pepper magic damage (50% magic). ,Inflicts status on enemy. Enemy defense magically changes by (-75% magic) (-2 per level).
+Hug,15,Pepper,Deals Pepper physical damage (60% strength) (10% hp). ,Inflicts status on self. Ally hp truly changes by (5% max hp).
+Cough,100,Oil,Deals Oil magic damage (200% magic). ,Inflicts status on enemy. Enemy strength magically changes by (-50% magic) (-2 per level). Inflicts status on enemy. Enemy magic magically changes by (-50% magic) (-2 per level).
+Pepper Smoke,100,Pepper,Deals Pepper magic damage (350% magic). ,Inflicts status on enemy. Enemy strength magically changes by (-40% magic) (-2 per level). Inflicts status on enemy. Enemy speed magically changes by (-40% magic) (-2 per level).
+Steel Mechanism,35,Chalk,Deals Chalk physical damage (80% strength) (20% magic). ,Inflicts status on self. Ally defense truly changes by (10% magic) (1 per level).
+Plonk,10,Neutral,Deals Neutral physical damage (65% strength). Deals Neutral magic damage (65% magic).,Does not inflict status.
+Goatee,20,Oil,Deals Oil physical damage (100% strength) (20% speed). ,Inflicts status on self. Ally speed truly changes by (5% magic).
+Stampede,80,Chalk,Deals Chalk physical damage (70% speed). Deals Chalk physical damage (70% speed). Deals Chalk physical damage (70% speed). Deals Chalk physical damage (70% speed).,Does not inflict status.
+Meow,40,Oil,Deals Oil magic damage (30% magic). ,Inflicts status on enemy. Enemy strength magically changes by (-50% magic) (-1.5 per level).
+Running Slice,90,Pepper,Deals Pepper physical damage (100% strength) (100% speed).,Does not inflict status.
+Devour,100,Oil,Deals Oil physical damage (60% strength). Deals Oil physical damage (60% strength). Deals Oil physical damage (60% strength). ,Inflicts status on enemy. Enemy max hp truly changes by (-40% max hp).
+Rose Healing,100,Pepper,Deals no damage.,Inflicts status on enemy. Enemy hp truly changes by (Enemy's 100% max hp).  Inflicts status on self. Ally magic truly changes by (300% magic) (1 per level).
+Melody,20,Pepper,Deals Pepper magic damage (60% magic) (40% speed).,Does not inflict status.
+Hi-Hats,20,Pepper,Deals Pepper magic damage (30% magic). Deals Pepper magic damage (30% magic). Deals Pepper magic damage (30% magic). ,Inflicts status on self. Ally speed truly changes by (8% magic) (1 per level).
+Build up,40,Pepper,Deals no damage.,Inflicts status on self. Ally magic truly changes by (25% magic) (2 per level).
+Payoff,60,Neutral,Deals Neutral magic damage (250% magic). ,Inflicts status on self. Ally hp truly changes by (-100% max hp).
+Poke,10,Neutral,Deals Neutral physical damage (120% strength). ,Inflicts status on self. Ally speed truly changes by (5% strength).
+Sting,30,Pepper,Deals Pepper physical damage (80% strength). ,Inflicts status on enemy. Enemy strength physically changes by (-30% strength) at the end of the round. lasts 5 rounds.
+Dark Missiles,20,Oil,Deals Oil magic damage (35% magic). Deals Oil magic damage (35% magic). Deals Oil magic damage (35% magic).,Does not inflict status.
+Agile Bite,20,Oil,Deals Oil physical damage (60% strength) (40% speed).,Does not inflict status.
+Approach,20,Chalk,Deals Chalk physical damage (70% strength) (30% speed).,Does not inflict status.
+Dissolve,30,Oil,Deals Oil magic damage (50% magic defense).,Does not inflict status.
+Dread,25,Oil,Deals Oil magic damage (100% magic) (30% strength).,Inflicts status on enemy. Enemy speed magically changes by (-10% magic).
+Dark Flowers,30,Pepper,Deals Pepper magic damage (30% magic defense). ,Inflicts status on enemy. Enemy speed magically changes by (-25% magic) (-0.7 per level).
+Web Weave,40,Chalk,Deals no damage.,Inflicts status on enemy. Enemy speed physically changes by (-50% defense) on using a spell. lasts 5 rounds.
+Crolla Gambit,50,Oil,Deals no damage.,Inflicts status on self. Ally strength truly changes by (130% defense) at the end of the round. has 1 round.  Inflicts status on self. Ally defense truly sets to (0% defense) at the end of the round. has 1 round.
+Citrus Fruit,0,Pepper,Deals no damage.,Inflicts status on self. Ally hp truly changes by (150% mana).  Inflicts status on self. Ally speed truly changes by (50% mana).  Inflicts status on self. Ally mana truly sets to 0.
+Lock 'n Load,40,Oil,Deals no damage.,Inflicts status on self. Enemy hp physically changes by (-150% strength) at the start of the round. has 1 charge. lasts 2 rounds.
+Share Pie,60,Pepper,Deals no damage., Inflicts status on enemy. Ally hp truly changes by (60% magic) (1 per level) at the start of the round. has 1 charge. 

@@ -1,159 +1,159 @@
 Name,Effect
-Flight,Inflicts status on self. Ally speed truly changes by (30% magic) (1 per level).  Inflicts status on self. Ally strength truly changes by (15% magic) (0.5 per level).
-Spikes,Inflicts status on self. Enemy hp physically changes by (-30% magic) (-1 per level)
-Gnashing Teeth,Inflicts status on self. Enemy hp physically changes by (-60% magic)
-Scattered Teeth,Inflicts status on self. Ally defense truly changes by (25% strength).
-Small Snack,Inflicts status on self. Ally mana truly changes by (60% max mana) on taking physical damage. has 1 charge.
-Brittle Structure,Inflicts status on enemy. Enemy defense magically changes by (-80% magic) (-1 per level).
-Identity Theft,Inflicts status on self. Ally max hp truly changes by (Enemy's 20% max hp).  Inflicts status on self. Ally hp truly changes by (Enemy's 20% max hp).  Inflicts status on enemy. Enemy hp truly changes by (Enemy's -20% max hp).
-Bloodsucker,Inflicts status on self. Ally hp truly changes by (50% magic) (1 per level)
-Running Late,Inflicts status on self. Ally speed truly changes by (10% magic) (0.5 per level) at the end of the round.
-Gelatinous,Inflicts status on self. Ally hp truly changes by (70% magic)
-Ambush,Inflicts status on self. Ally strength truly changes by (-200% magic) (-1 per level) at the end of the round. has 1 charge.  Inflicts status on self. Ally strength truly changes by (200% magic) (1 per level).
-Multiple Jaws,Inflicts status on self. Enemy hp physically changes by (-15% strength) (-1 per level)
-Parasite,Inflicts status on enemy. Enemy hp truly changes by (-8% magic) at the end of the round. lasts 5 rounds.  Inflicts status on enemy. Ally hp truly changes by (8% magic) at the end of the round. lasts 5 rounds.
-Acolyte of the Sky,Inflicts status on self. Enemy hp magically changes by (-70% magic)
-Old Arcana,Inflicts status on self. Ally magic truly changes by (60% strength) (1 per level).
-Two-Sided,Inflicts status on self. Ally hp truly changes by (-100% strength).  Inflicts status on self. Ally strength truly changes by (100% strength).
-Self Destructive,Inflicts status on self. Ally magic truly changes by (2% max hp) at the start of the round.  Inflicts status on self. Ally max hp truly changes by (-2% max hp) at the end of the round.  Inflicts status on self. Ally hp truly changes by (-2% max hp) at the end of the round.
-World Peace,Inflicts status on self. Ally hp truly changes by (8% max hp) lasts 4 rounds.  Inflicts status on self. Enemy hp truly changes by (Enemy's 8% max hp) lasts 4 rounds.
-Download,Inflicts status on self. Ally magic truly changes by (Enemy's 40% magic).
-Insight,Inflicts status on enemy. Enemy magic defense truly sets to (Enemy's 70% magic defense).
-Horrid Insight,Inflicts status on self. Enemy magic defense truly changes by (Enemy's -40% magic defense) on basic attacking. has 2 charges.
-Burning Alive,Inflicts status on self. Ally strength truly changes by (10% max hp) at the start of the round.  Inflicts status on self. Ally magic truly changes by (10% max hp) at the start of the round.  Inflicts status on self. Ally max hp truly changes by (-10% max hp) at the start of the round.  Inflicts status on self. Ally hp truly changes by (-10% max hp) at the start of the round.
-Snail Breath,Inflicts status on self. Enemy hp magically changes by (-90% magic) (-1 per level)
-Sky Eater,Inflicts status on self. Ally hp truly changes by (20% magic) (0.5 per level)  Inflicts status on self. Enemy hp magically changes by (-20% magic) (-0.5 per level)
-Sin Wave,Inflicts status on self. Ally strength truly changes by (1 per level) on basic attacking.  Inflicts status on self. Ally magic truly changes by (-1 per level) on basic attacking.  Inflicts status on self. Ally magic truly changes by (1 per level) on using a spell.  Inflicts status on self. Ally strength truly changes by (-1 per level) on using a spell.
-Burn Wave,Inflicts status on self. Ally strength truly changes by (2 per level) on basic attacking.  Inflicts status on self. Ally magic truly changes by (2 per level) on using a spell.  Inflicts status on self. Ally max hp truly changes by (-2 per level) on basic attacking.  Inflicts status on self. Ally hp truly changes by (-2 per level) on basic attacking.
-Shake,Inflicts status on self. Ally hp truly changes by (300% mana) on taking magic damage. has 1 charge.
-Groovy,Inflicts status on self. Ally magic truly changes by (30% magic) (1.5 per level) on basic attacking.
-Glare Down,Inflicts status on enemy. Enemy defense truly sets to (Enemy's 80% defense).
-Death Stare,Inflicts status on enemy. Enemy defense truly changes by (Enemy's -40% magic defense).
-Destructive Snail,Inflicts status on self. Enemy hp magically changes by (-180% magic) (-1 per level) on basic attacking.  Inflicts status on self. Ally max hp truly changes by (-4% max hp) on basic attacking.  Inflicts status on self. Ally hp truly changes by (-4% max hp) on basic attacking.
-Chalk Power,Inflicts status on self. Ally defense truly changes by (3 per level).
-Pepper Power,Inflicts status on self. Ally magic truly changes by (3 per level).
-Oil Power,Inflicts status on self. Ally strength truly changes by (3 per level).
-Gloopy,Inflicts status on self. Ally hp truly changes by (20% magic) (1.5 per level)  Inflicts status on self. Ally speed truly changes by (30% magic) (-2 per level).
-Unsolved,Inflicts status on self. Ally magic truly changes by (70% strength) on basic attacking.  Inflicts status on self. Ally mana truly sets to (0% magic) at the end of the round.  Inflicts status on self. Ally strength truly sets to *.
-Solved,Inflicts status on self. Ally mana truly sets to (100% max mana) at the end of the round.  Inflicts status on self. Ally magic truly sets to (30% magic).
-Timid,Inflicts status on self. Ally strength truly changes by (-0.5 per level) at the end of the round.  Inflicts status on self. Ally mana truly changes by (10% max mana) at the end of the round.
-Gloopid,Inflicts status on self. Ally strength truly changes by (-0.75 per level) at the end of the round.  Inflicts status on self. Ally mana truly changes by (15% max mana) at the end of the round.  Inflicts status on self. Ally speed truly changes by (50% magic) (-4 per level).
-Illusionist,Inflicts status on self. Enemy hp truly changes by (-30% magic) (-1 per level)
-Moving Castle,Inflicts status on self. Ally magic truly changes by (20% defense) (1 per level).
-Confusion,Inflicts status on enemy. Enemy strength truly sets to (Enemy's 100% magic) at the start of the round. has 1 charge.  Inflicts status on enemy. Enemy magic truly sets to (Enemy's 100% strength) at the start of the round. has 1 charge.  Inflicts status on enemy. Enemy defense truly sets to (Enemy's 100% magic defense) at the start of the round. has 1 charge.  Inflicts status on enemy. Enemy magic defense truly sets to (Enemy's 100% defense) at the start of the round. has 1 charge.
-Castelvecchio,Inflicts status on self. Ally magic truly changes by (20% magic defense) (1 per level).  Inflicts status on enemy. Enemy strength truly sets to (Enemy's 100% magic) at the start of the round. has 1 charge.  Inflicts status on enemy. Enemy magic truly sets to (Enemy's 100% strength) at the start of the round. has 1 charge.
-Cubic Organs,Inflicts status on enemy. Enemy mana truly changes by (-20% max mana).
-Bottomless Stomach,Inflicts status on self. Ally hp truly changes by (10% max hp) (0.2 per level)
-Web Trap,Inflicts status on enemy. Enemy speed physically changes by (-60% defense).
-Stock Broker,Inflicts status on self. Ally max hp truly changes by (500% magic) (5 per level).
-Black Fire,Inflicts status on self. Ally max hp truly changes by (-4% max hp) at the end of the round.  Inflicts status on self. Ally hp truly changes by (-4% max hp) at the end of the round.  Inflicts status on self. Ally mana truly changes by (10% max mana) at the end of the round.
-Loud Breather,Inflicts status on enemy. Enemy magic magically changes by (-85% magic) (-1 per level).
-Blood Mark,Inflicts status on enemy. Ally hp truly changes by (15% magic) (1 per level) on taking physical damage. lasts 6 rounds.
-12-Sided,Inflicts status on self. Ally strength truly changes by (25% strength) on using a spell. has 12 charges.  Inflicts status on self. Ally strength truly sets to (0% strength).
-Gas-Filled,Inflicts status on self. Enemy hp magically changes by (-80% magic) (-1 per level) on taking physical damage. has 1 charge.  Inflicts status on self. Ally speed truly changes by (40% magic) (1 per level) on taking physical damage. has 1 charge.
-Ancient Coil,Inflicts status on self. Ally magic truly changes by (30% magic) (0.5 per level) on taking magic damage. has 3 charges.
-Shake-Filled,Inflicts status on self. Enemy hp magically changes by (-40% magic) (-1 per level) on taking magic damage. has 1 charge.  Inflicts status on self. Ally hp truly changes by (150% mana) on taking magic damage. has 1 charge.
-Lampshade,Inflicts status on self. Ally defense truly changes by (-750% defense) on taking physical damage. has 1 charge.  Inflicts status on self. Ally defense truly changes by (750% defense).
-Black Light,Inflicts status on self. Ally magic defense truly changes by (-750% magic defense) on taking magic damage. has 1 charge.  Inflicts status on self. Ally magic defense truly changes by (750% magic defense).
-Final Question,Inflicts status on enemy. Enemy strength magically changes by (-85% magic) (-1 per level).
-Witch's Hex,Inflicts status on enemy. Enemy hp magically changes by (-20% magic) at the end of the round. lasts 10 rounds.
-Crystalize,Inflicts status on self. Ally hp truly changes by (35% magic) (1.5 per level) on using a spell. has 3 charges.
-Calculator,Inflicts status on self. Ally strength truly changes by (Enemy's 40% strength).
-Abacus,Inflicts status on self. Ally strength truly changes by (Enemy's 20% strength).  Inflicts status on enemy. Enemy hp magically changes by (-20% magic) at the end of the round. lasts 5 rounds.
-Smallest Kick,Inflicts status on self. Enemy hp physically changes by (Enemy's -20% max hp)
-Flowers,Inflicts status on self. Ally magic truly changes by (5 per level).  Inflicts status on self. Ally magic truly changes by (-1 per level) at the end of the round. lasts 10 rounds.
-Scuttler,Inflicts status on self. Ally speed truly changes by (50% magic)
-Hat Trick,Inflicts status on self. Enemy hp magically changes by (-200% magic) (-1 per level) on taking magic damage. has 1 round.
-Groovy Trick,Inflicts status on self. Enemy hp magically changes by (-100% magic) (-1 per level) has 1 round.  Inflicts status on self. Ally magic truly changes by (15% magic) (1 per level) on basic attacking.
-Venomous Fangs,Inflicts status on self. Enemy speed magically changes by (-50% magic) (-1 per level)
-Share Snacks,Inflicts status on self. Ally mana truly sets to (100% max mana) on taking physical damage. has 1 charge. lasts 2 rounds.  Inflicts status on enemy. Enemy mana truly sets to (Enemy's 100% max mana) on taking physical damage. has 1 charge. lasts 2 rounds.
-Share Stocks,Inflicts status on self. Ally max hp truly changes by (500% magic) (5 per level) has 1 charge. lasts 2 rounds.  Inflicts status on enemy. Enemy max hp truly changes by (500% magic) (5 per level) has 1 charge. lasts 2 rounds.
-Chalk Jelly,Inflicts status on self. Ally defense truly changes by (1.5 per level).  Inflicts status on self. Ally hp truly changes by (35% magic)
-Tooth Swarm,Inflicts status on self. Enemy hp physically changes by (-10% magic) (-1 per level) on using a spell.
-Infinite-Sided,Inflicts status on self. Ally strength truly changes by (20% strength) on using a spell. has 99999 charges.  Inflicts status on self. Ally strength truly sets to (0% strength).
-Snackbush,Inflicts status on self. Ally mana truly changes by (30% max mana) on taking physical damage. has 1 charge.  Inflicts status on self. Ally strength truly changes by (-50% magic) (-1 per level) at the end of the round. has 1 charge.  Inflicts status on self. Ally strength truly changes by (50% magic) (1 per level).
-Digital Flowers,Inflicts status on self. Ally magic truly changes by (Enemy's -30% magic) (-0.3 per level) at the end of the round. lasts 10 rounds.  Inflicts status on self. Ally magic truly changes by (Enemy's 100% magic) (1 per level).
-Spiked Coil,Inflicts status on self. Enemy hp physically changes by (-15% magic) (-0.5 per level)  Inflicts status on self. Ally magic truly changes by (15% magic) on taking magic damage. has 3 charges.
-Double Back,Inflicts status on self. Ally hp truly changes by (-50% strength).  Inflicts status on self. Ally strength truly changes by (75% strength).  Inflicts status on self. Ally magic truly changes by (25% strength) (0.5 per level).
-Smug,Inflicts status on self. Ally strength truly changes by (20% magic) (1 per level)
-Sickly,Inflicts status on self. Enemy strength magically changes by (-30% hp)
-Smoke Factory,Inflicts status on self. Enemy strength magically changes by (-20% magic) (-0.5 per level)  Inflicts status on self. Enemy speed magically changes by (-20% magic) (-0.5 per level)
-Crystalized Smoke,Inflicts status on self. Enemy magic magically changes by (-40% magic) has 3 charges.  Inflicts status on self. Enemy speed magically changes by (-40% magic) has 3 charges.
-No Mercy,Inflicts status on enemy. Enemy hp physically changes by (-100% magic) (-0.5 per level).
-Hair Climber,Inflicts status on self. Ally speed truly changes by (400% magic) (1 per level) on taking magic damage. has 1 charge.
-Tangled Hair,Inflicts status on enemy. Enemy hp physically changes by (-50% magic) (-0.25 per level).  Inflicts status on self. Ally speed truly changes by (200% magic) (1 per level) on taking magic damage. has 1 charge.
-Death Scuttle,Inflicts status on enemy. Enemy defense truly changes by (Enemy's -15% magic defense).  Inflicts status on self. Ally speed truly changes by (10% magic) (0.5 per level)
-Salty Snacks,Inflicts status on self. Ally speed truly changes by (20% magic) (1 per level) on using a spell. has 4 charges.
-Breath Theft,Inflicts status on self. Ally magic truly changes by (Enemy's 25% magic).  Inflicts status on enemy. Enemy magic truly changes by (Enemy's -25% magic).
-False Jaw,Inflicts status on self. Enemy hp physically changes by (-300% magic) (1 per level) on taking physical damage. has 1 round.
-False Mark,Inflicts status on self. Enemy hp physically changes by (-150% magic) (0.5 per level) on taking physical damage. has 1 round.  Inflicts status on enemy. Ally hp truly changes by (15% magic) (1 per level) on taking physical damage. lasts 3 rounds.
-Egg?,Inflicts status on self. Ally defense truly changes by (8% magic) (1 per level).  Inflicts status on self. Ally magic defense truly changes by (8% magic) (1 per level).
-Egg Snacks?,Inflicts status on self. Ally defense truly changes by (5% magic) (0.5 per level).  Inflicts status on self. Ally magic defense truly changes by (5% magic) (0.5 per level).  Inflicts status on self. Ally speed truly changes by (10% magic) (0.25 per level) on using a spell. has 2 charges.
-Sickly Smug,Inflicts status on self. Enemy strength magically changes by (-15% hp)  Inflicts status on self. Ally strength truly changes by (10% magic) (0.5 per level) on taking physical damage.
-Guilty,Inflicts status on self. Ally hp truly changes by (-10% magic) at the start of the round.  Inflicts status on self. Ally magic truly changes by (50% magic).
-Elixir,Inflicts status on self. Ally mana truly sets to (0% max mana).  Inflicts status on self. Ally magic truly changes by (5 per level).
-Rose Child,Inflicts status on self. Ally mana truly sets to (10% max mana).  Inflicts status on self. Ally magic truly changes by (2.5 per level).  Inflicts status on self. Ally hp truly changes by (-10% magic) at the start of the round.  Inflicts status on self. Ally magic truly changes by (25% magic).
-Final Illusion,Inflicts status on enemy. Enemy strength magically changes by (-20% magic) (-0.5 per level).  Inflicts status on self. Enemy hp truly changes by (-15% magic) (-0.5 per level)
-Venomous Tea,Inflicts status on self. Enemy speed magically changes by (-25% magic) (-0.5 per level)  Inflicts status on self. Ally speed truly changes by (5% magic) (0.25 per level)
-Sturdy Wall,Inflicts status on self. Ally defense truly changes by (40% magic) (5 per level).  Inflicts status on self. Ally defense truly changes by (5% magic) (-3 per level) on taking physical damage. has 4 charges.
-Magic Coral,Inflicts status on self. Ally speed truly changes by (-50% magic) (-5 per level).  Inflicts status on self. Ally defense truly changes by (10% magic) (0.2 per level) on taking physical damage. has 10 charges.  Inflicts status on self. Ally magic defense truly changes by (10% magic) (0.2 per level) on taking magic damage. has 10 charges.
-Coral Wall,Inflicts status on self. Ally speed truly changes by (0% magic) (-2.5 per level).  Inflicts status on self. Ally defense truly changes by (25% magic) (2.5 per level).  Inflicts status on self. Ally defense truly changes by (3% magic) (-1.5 per level) on taking physical damage. has 4 charges.  Inflicts status on self. Ally defense truly changes by (10% magic) (0.2 per level) on taking physical damage. has 5 charges.  Inflicts status on self. Ally magic defense truly changes by (10% magic) (0.2 per level) on taking magic damage. has 5 charges.
-Chaos Eater,Inflicts status on self. Enemy defense magically changes by (-60% magic) (-0.5 per level) has 3 charges.
-Unfathomable Arbiter,Inflicts status on enemy. Enemy mana truly changes by (Enemy's -10% max mana).  Inflicts status on self. Enemy mana truly changes by (Enemy's -10% max mana) at the end of the round.
-Unstable Explosive,Inflicts status on enemy. Enemy hp magically changes by (-100% hp) at the start of the round. has 1 charge.  Inflicts status on self. Ally hp truly changes by (-100% max hp).
-Explosive,Inflicts status on enemy. Enemy hp magically changes by (-50% hp) at the start of the round. has 1 charge.  Inflicts status on self. Ally hp truly changes by (-50% max hp).
-Stable Explosive,Inflicts status on enemy. Enemy hp magically changes by (-25% hp) at the start of the round. has 1 charge.  Inflicts status on self. Ally hp truly changes by (-25% max hp).
-Pepper Parasite,Inflicts status on enemy. Enemy hp truly changes by (-5% magic) (-1 per level) at the end of the round. lasts 5 rounds.  Inflicts status on enemy. Ally hp truly changes by (5% magic) (1 per level) at the end of the round. lasts 5 rounds.  Inflicts status on self. Ally magic truly changes by (10% magic) at the end of the round. lasts 5 rounds.
-Brittle World,Inflicts status on enemy. Enemy defense magically changes by (-40% magic) (-0.75 per level).  Inflicts status on self. Ally hp truly changes by (8% max hp) lasts 2 rounds.  Inflicts status on self. Enemy hp truly changes by (Enemy's 8% max hp) lasts 2 rounds.
-Lover,Inflicts status on enemy. Enemy magic magically changes by (-70% magic).  Inflicts status on enemy. Enemy strength magically changes by (-70% magic).
-Bottomless Love,Inflicts status on enemy. Enemy strength magically changes by (-25% magic) on using a spell.  Inflicts status on enemy. Enemy magic magically changes by (-25% magic) on using a spell.
-Spin,Inflicts status on self. Ally magic truly changes by (20% magic) (1 per level) on taking physical damage.
-Festive Snack,Inflicts status on self. Ally mana truly changes by (30% max mana) on taking physical damage. has 1 charge.  Inflicts status on self. Ally magic truly changes by (10% magic) (0.5 per level) on taking physical damage.
-Cursed Candy,Inflicts status on self. Enemy mana truly changes by (20% max mana) on taking physical damage. has 5 charges.  Inflicts status on self. Enemy hp physically changes by (-60% magic) (-2 per level) has 5 charges.
-Ancient Candy,Inflicts status on self. Enemy mana truly changes by (20% max mana) on taking magic damage. has 3 charges.  Inflicts status on self. Ally magic truly changes by (50% magic) (1 per level) on taking magic damage. has 3 charges.
-Gift,Inflicts status on enemy. Enemy max hp truly changes by (5 per level).  Inflicts status on enemy. Enemy hp truly changes by (5 per level).  Inflicts status on self. Ally magic truly changes by (2.5 per level).  Inflicts status on self. Ally strength truly changes by (2.5 per level).
-Wonderful Gift,Inflicts status on enemy. Enemy max hp truly changes by (10 per level).  Inflicts status on enemy. Enemy hp truly changes by (10 per level).  Inflicts status on self. Ally magic truly changes by (5 per level).  Inflicts status on self. Ally strength truly changes by (5 per level).
-Flowers for the Dead,Inflicts status on self. Enemy max hp magically changes by (Enemy's -10% max hp)
-Flower Effigy,Inflicts status on self. Ally hp truly changes by (35% magic)  Inflicts status on self. Enemy max hp magically changes by (Enemy's -5% max hp)
-Firecracker,Inflicts status on self. Enemy hp magically changes by (-30% magic) (-0.5 per level)
-Money Maker,Inflicts status on self. Ally hp truly changes by (15% magic) (0.75 per level)
-Subscribe,Inflicts status on self. Ally magic truly changes by (20% magic).  Inflicts status on enemy. Enemy magic truly changes by (-20% magic).
-Shrimp,Inflicts status on self. Ally speed truly changes by (30% magic) (1 per level).  Inflicts status on self. Ally strength truly changes by (30% magic) (0.5 per level).
-Power Shrimp,Inflicts status on self. Ally magic truly changes by (10% magic).  Inflicts status on enemy. Enemy magic truly changes by (-10% magic).  Inflicts status on self. Ally speed truly changes by (30% magic).  Inflicts status on self. Ally strength truly changes by (15% magic).
-Mug,Inflicts status on self. Ally defense truly sets to (0% defense) on taking physical damage. has 1 charge.  Inflicts status on self. Ally magic truly changes by (90% defense) has 1 charge.  Inflicts status on self. Ally speed truly changes by (25% defense) has 1 charge.
-Tipped Over,Inflicts status on self. Ally speed truly changes by (10% magic) (1 per level).  Inflicts status on self. Ally magic truly changes by (5% magic) (0.5 per level).
-Astromancy,Inflicts status on self. Enemy hp magically changes by (-30% magic) (-1.2 per level) has 3 charges.
-Ruler of the Cosmos,Inflicts status on self. Ally speed truly changes by (8% magic).  Inflicts status on self. Ally magic truly changes by (3% magic).  Inflicts status on self. Enemy hp magically changes by (-15% magic) (-0.6 per level) has 3 charges.
-Jazz,Inflicts status on self. Ally speed truly changes by (20% magic) (1 per level).  Inflicts status on self. Ally speed truly changes by (10% magic)
-Castle Jazz,Inflicts status on self. Ally magic truly changes by (10% defense) (1 per level).  Inflicts status on self. Ally magic truly changes by (5% defense)
-Jelly,Inflicts status on self. Ally hp truly changes by (100% magic) has 1 charge.
-Acolyte of Jelly,Inflicts status on self. Enemy hp magically changes by (-35% magic)  Inflicts status on self. Ally hp truly changes by (50% magic) has 1 charge.
-Jaw Thief,Inflicts status on self. Ally strength truly changes by (Enemy's 25% strength).  Inflicts status on enemy. Enemy strength truly changes by (Enemy's -25% strength).
-Charm,Inflicts status on self. Enemy mana truly changes by (-20% max mana) on taking physical damage.
-Burning Charm,Inflicts status on self. Enemy mana truly changes by (-10% max mana) on taking physical damage.  Inflicts status on self. Ally strength truly changes by (10% max hp) at the start of the round. lasts 3 rounds.  Inflicts status on self. Ally magic truly changes by (10% max hp) at the start of the round. lasts 3 rounds.  Inflicts status on self. Ally max hp truly changes by (-10% max hp) at the start of the round. lasts 3 rounds.  Inflicts status on self. Ally hp truly changes by (-10% max hp) at the start of the round. lasts 3 rounds.
-Healing Stars,Inflicts status on enemy. Ally hp truly changes by (100% magic) on taking physical damage. has 1 charge. lasts 2 rounds.
-Strong Stars,Inflicts status on enemy. Enemy hp magically changes by (-120% magic) (-2 per level) on taking physical damage. has 1 charge. lasts 2 rounds.
-Twin Stars,Inflicts status on self. Ally strength truly sets to (Enemy's 80% strength).  Inflicts status on self. Ally magic truly sets to (Enemy's 80% magic).
-Crabby Star,Inflicts status on self. Enemy hp physically changes by (-100% magic) on using a spell. has 3 charges.
-Courageous Star,Inflicts status on enemy. Enemy strength magically changes by (-100% magic) on taking physical damage. has 1 charge. lasts 2 rounds.
-Lady Star,Inflicts status on self. Ally defense truly sets to (Enemy's 100% defense).
-Star Judge,Inflicts status on self. Enemy strength truly sets to (Enemy's 50% strength) at the start of the round. has 1 round.  Inflicts status on self. Enemy magic truly sets to (Enemy's 50% magic) at the start of the round. has 1 round.  Inflicts status on self. Enemy strength truly changes by (Enemy's 50% magic) at the start of the round. has 1 round.  Inflicts status on self. Enemy magic truly changes by (Enemy's 50% strength) at the start of the round. has 1 round.
-Star Scorpion,Inflicts status on enemy. Enemy strength physically changes by (-10% strength) at the end of the round. lasts 10 rounds.
-Starcher,Inflicts status on self. Enemy hp physically changes by (-30% strength) (-1 per level)  Inflicts status on self. Ally magic truly sets to 0 on basic attacking. has 1 charge.  Inflicts status on self. Ally strength truly sets to (120% strength) on basic attacking. has 1 charge.
-Star Blessings,Inflicts status on enemy. Ally hp truly changes by (7% magic) on taking physical damage. has 1 charge. lasts 2 rounds.  Inflicts status on enemy. Ally strength truly changes by (7% magic) on taking physical damage. has 1 charge. lasts 2 rounds.  Inflicts status on enemy. Ally defense truly changes by (7% magic) on taking physical damage. has 1 charge. lasts 2 rounds.  Inflicts status on enemy. Ally magic defense truly changes by (7% magic) on taking physical damage. has 1 charge. lasts 2 rounds.
-Jar of Water,Inflicts status on enemy. Enemy strength magically changes by (-150% magic).
-Fast Swimmers,Inflicts status on enemy. Ally speed truly changes by (30% speed) on taking physical damage. has 1 charge.
-The Prince,Inflicts status on self. Ally mana truly sets to (100% max mana) at the end of the round.  Inflicts status on self. Ally hp magically changes by (-40% max hp) at the start of the round.
-Oily Kicks,Inflicts status on self. Enemy hp physically changes by (Enemy's -10% max hp) has 3 charges.  Inflicts status on self. Ally strength truly changes by (1.5 per level).
-Cubic Trap,Inflicts status on enemy. Enemy speed truly changes by (Enemy's -250% mana).
-Growing Horns,Inflicts status on self. Ally strength truly changes by (15% magic) (0.5 per level) on using a spell.
-Best Friends,Inflicts status on self. Ally hp truly changes by (2 per level) on basic attacking.  Inflicts status on self. Ally strength truly sets to (1.25 per level) on using a spell. has 1 charge.  Inflicts status on self. Ally magic truly changes by (85% defense) has 1 charge.  Inflicts status on self. Ally speed truly changes by (25% defense) has 1 charge.  Inflicts status on self. Ally defense truly sets to on using a spell. has 1 charge.
-Brain Scramble,Inflicts status on enemy. Enemy hp magically changes by (-40% magic) on using a spell. lasts 5 rounds.
-Mind Horns,Inflicts status on self. Ally strength truly changes by (15% magic) (0.5 per level) on using a spell. lasts 3 rounds.  Inflicts status on enemy. Enemy hp magically changes by (-40% magic) on using a spell. lasts 3 rounds.
-11001010,Inflicts status on self. Enemy hp truly changes by (-1% max mana).
-22002022,Inflicts status on self. Ally magic truly changes by (1% max mana) on taking physical damage. has 1 charge.  Inflicts status on self. Ally speed truly changes by (1% max mana) on taking physical damage. has 1 charge.  Inflicts status on self. Ally defense truly changes by (-1% max mana) on taking physical damage. has 1 charge.
-#.Mug.2,Inflicts status on self. Ally magic truly changes by (300% mana) on taking physical damage. has 1 charge. has 1 round.  Inflicts status on self. Ally speed truly changes by (150% mana) on taking physical damage. has 1 charge. has 1 round.  Inflicts status on self. Ally mana truly changes by (-50% mana) on taking physical damage. has 1 charge. has 1 round.
-Cannon,Inflicts status on self. Enemy hp physically changes by (-250% ).
-Nectar Drinker,Inflicts status on self. Ally mana truly changes by (10% max mana) on basic attacking.  Inflicts status on self. Enemy mana truly changes by (-10% max mana) on basic attacking.
-Nectar Cannoneer,Inflicts status on self. Ally mana truly changes by (10% max mana) on basic attacking. has 1 charge.  Inflicts status on self. Enemy mana truly changes by (-10% max mana) on basic attacking. has 1 charge.  Inflicts status on self. Enemy hp physically changes by (-125% mana).
-Hand Cannon,Inflicts status on self. Enemy hp physically changes by (-25% mana) (-6 per level).
+Flight,Inflicts status on self. Ally speed truly changes by * (30% magic) (1 per level). Inflicts status on self. Ally strength truly changes by * (15% magic) (0.5 per level).
+Spikes,Inflicts status on self. Enemy hp physically changes by * (-30% magic) (-1 per level) on taking physical damage.
+Gnashing Teeth,Inflicts status on self. Enemy hp physically changes by * (-60% magic) on using a spell.
+Scattered Teeth,Inflicts status on self. Ally defense truly changes by * (25% strength).
+Small Snack,Inflicts status on self. Ally mana truly changes by * (60% max mana) on taking physical damage. Has 1 charge.
+Brittle Structure,Inflicts status on enemy. Enemy defense magically changes by * (-80% magic) (-1 per level).
+Identity Theft,Inflicts status on self. Ally max hp truly changes by * (Enemy's 20% max hp). Inflicts status on self. Ally hp truly changes by * (Enemy's 20% max hp). Inflicts status on enemy. Enemy hp truly changes by * (Enemy's -20% max hp).
+Bloodsucker,Inflicts status on self. Ally hp truly changes by * (50% magic) (1 per level) on basic attacking.
+Running Late,Inflicts status on self. Ally speed truly changes by * (10% magic) (0.5 per level) at the end of the round.
+Gelatinous,Inflicts status on self. Ally hp truly changes by * (70% magic) on taking magic damage.
+Ambush,Inflicts status on self. Ally strength truly changes by * (-200% magic) (-1 per level) at the end of the round. Has 1 charge. Inflicts status on self. Ally strength truly changes by * (200% magic) (1 per level).
+Multiple Jaws,Inflicts status on self. Enemy hp physically changes by * (-15% strength) (-1 per level) on basic attacking.
+Parasite,Inflicts status on enemy. Enemy hp truly changes by * (-8% magic) at the end of the round. Lasts 5 rounds. Inflicts status on enemy. Ally hp truly changes by * (8% magic) at the end of the round. Lasts 5 rounds.
+Acolyte of the Sky,Inflicts status on self. Enemy hp magically changes by * (-70% magic) on basic attacking.
+Old Arcana,Inflicts status on self. Ally magic truly changes by * (60% strength) (1 per level).
+Two-Sided,Inflicts status on self. Ally hp truly changes by * (-100% strength). Inflicts status on self. Ally strength truly changes by * (100% strength).
+Self Destructive,Inflicts status on self. Ally magic truly changes by * (2% max hp) at the start of the round. Inflicts status on self. Ally max hp truly changes by * (-2% max hp) at the end of the round. Inflicts status on self. Ally hp truly changes by * (-2% max hp) at the end of the round.
+World Peace,Inflicts status on self. Ally hp truly changes by * (20% max hp) at the end of the round. Lasts 4 rounds. Inflicts status on self. Enemy hp truly changes by * (Enemy's 20% max hp) at the end of the round. Lasts 4 rounds.
+Download,Inflicts status on self. Ally magic truly changes by * (Enemy's 40% magic).
+Insight,Inflicts status on enemy. Enemy magic defense truly sets to * (Enemy's 70% magic defense).
+Horrid Insight,Inflicts status on self. Enemy magic defense truly changes by * (Enemy's -40% magic defense) on basic attacking. Has 2 charges.
+Burning Alive,Inflicts status on self. Ally strength truly changes by * (10% max hp) at the start of the round. Inflicts status on self. Ally magic truly changes by * (10% max hp) at the start of the round. Inflicts status on self. Ally max hp truly changes by * (-10% max hp) at the start of the round. Inflicts status on self. Ally hp truly changes by * (-10% max hp) at the start of the round.
+Snail Breath,Inflicts status on self. Enemy hp magically changes by * (-90% magic) (-1 per level) on basic attacking.
+Sky Eater,Inflicts status on self. Ally hp truly changes by * (20% magic) (0.5 per level) on basic attacking. Inflicts status on self. Enemy hp magically changes by * (-20% magic) (-0.5 per level) on basic attacking.
+Sin Wave,Inflicts status on self. Ally strength truly changes by * (1 per level) on basic attacking. Inflicts status on self. Ally magic truly changes by * (-1 per level) on basic attacking. Inflicts status on self. Ally magic truly changes by * (1 per level) on using a spell. Inflicts status on self. Ally strength truly changes by * (-1 per level) on using a spell.
+Burn Wave,Inflicts status on self. Ally strength truly changes by * (2 per level) on basic attacking. Inflicts status on self. Ally magic truly changes by * (2 per level) on using a spell. Inflicts status on self. Ally max hp truly changes by * (-2 per level) on basic attacking. Inflicts status on self. Ally hp truly changes by * (-2 per level) on basic attacking.
+Shake,Inflicts status on self. Ally hp truly changes by * (300% mana) on taking magic damage. Has 1 charge.
+Groovy,Inflicts status on self. Ally magic truly changes by * (30% magic) (1.5 per level) on basic attacking.
+Glare Down,Inflicts status on enemy. Enemy defense truly sets to * (Enemy's 80% defense).
+Death Stare,Inflicts status on enemy. Enemy defense truly changes by * (Enemy's -40% magic defense).
+Destructive Snail,Inflicts status on self. Enemy hp magically changes by * (-180% magic) (-1 per level) on basic attacking. Inflicts status on self. Ally max hp truly changes by * (-4% max hp) on basic attacking. Inflicts status on self. Ally hp truly changes by * (-4% max hp) on basic attacking.
+Chalk Power,Inflicts status on self. Ally defense truly changes by * (3 per level).
+Pepper Power,Inflicts status on self. Ally magic truly changes by * (3 per level).
+Oil Power,Inflicts status on self. Ally strength truly changes by * (3 per level).
+Gloopy,Inflicts status on self. Ally hp truly changes by * (20% magic) (1.5 per level) on taking physical damage. Inflicts status on self. Ally speed truly changes by * (30% magic) (-2 per level).
+Unsolved,Inflicts status on self. Ally magic truly changes by * (70% strength) on basic attacking. Inflicts status on self. Ally mana truly sets to * (0% magic) at the end of the round. Inflicts status on self. Ally strength truly sets to *.
+Solved,Inflicts status on self. Ally mana truly sets to * (100% max mana) at the end of the round. Inflicts status on self. Ally magic truly sets to * (30% magic).
+Timid,Inflicts status on self. Ally strength truly changes by * (-0.5 per level) at the end of the round. Inflicts status on self. Ally mana truly changes by * (10% max mana) at the end of the round.
+Gloopid,Inflicts status on self. Ally strength truly changes by * (-0.75 per level) at the end of the round. Inflicts status on self. Ally mana truly changes by * (15% max mana) at the end of the round. Inflicts status on self. Ally speed truly changes by * (50% magic) (-4 per level).
+Illusionist,Inflicts status on self. Enemy hp truly changes by * (-30% magic) (-1 per level) on taking magic damage.
+Moving Castle,Inflicts status on self. Ally magic truly changes by * (20% defense) (1 per level).
+Confusion,Inflicts status on enemy. Enemy strength truly sets to * (Enemy's 100% magic) at the start of the round. Has 1 charge. Inflicts status on enemy. Enemy magic truly sets to * (Enemy's 100% strength) at the start of the round. Has 1 charge. Inflicts status on enemy. Enemy defense truly sets to * (Enemy's 100% magic defense) at the start of the round. Has 1 charge. Inflicts status on enemy. Enemy magic defense truly sets to * (Enemy's 100% defense) at the start of the round. Has 1 charge.
+Castelvecchio,Inflicts status on self. Ally magic truly changes by * (20% magic defense) (1 per level). Inflicts status on enemy. Enemy strength truly sets to * (Enemy's 100% magic) at the start of the round. Has 1 charge. Inflicts status on enemy. Enemy magic truly sets to * (Enemy's 100% strength) at the start of the round. Has 1 charge.
+Cubic Organs,Inflicts status on enemy. Enemy mana truly changes by * (-20% max mana).
+Bottomless Stomach,Inflicts status on self. Ally hp truly changes by * (10% max hp) (0.2 per level) on using a spell.
+Web Trap,Inflicts status on enemy. Enemy speed physically changes by * (-60% defense).
+Stock Broker,Inflicts status on self. Ally max hp truly changes by * (500% magic) (5 per level).
+Black Fire,Inflicts status on self. Ally max hp truly changes by * (-4% max hp) at the end of the round. Inflicts status on self. Ally hp truly changes by * (-4% max hp) at the end of the round. Inflicts status on self. Ally mana truly changes by * (10% max mana) at the end of the round.
+Loud Breather,Inflicts status on enemy. Enemy magic magically changes by * (-85% magic) (-1 per level).
+Blood Mark,Inflicts status on enemy. Ally hp truly changes by * (15% magic) (1 per level) on taking physical damage. Lasts 6 rounds.
+12-Sided,Inflicts status on self. Ally strength truly changes by * (25% strength) on using a spell. Has 12 charges. Inflicts status on self. Ally strength truly sets to * (0% strength).
+Gas-Filled,Inflicts status on self. Enemy hp magically changes by * (-80% magic) (-1 per level) on taking physical damage. Has 1 charge. Inflicts status on self. Ally speed truly changes by * (40% magic) (1 per level) on taking physical damage. Has 1 charge.
+Ancient Coil,Inflicts status on self. Ally magic truly changes by * (30% magic) (0.5 per level) on taking magic damage. Has 3 charges.
+Shake-Filled,Inflicts status on self. Enemy hp magically changes by * (-40% magic) (-1 per level) on taking magic damage. Has 1 charge. Inflicts status on self. Ally hp truly changes by * (150% mana) on taking magic damage. Has 1 charge.
+Lampshade,Inflicts status on self. Ally defense truly changes by * (-750% defense) on taking physical damage. Has 1 charge. Inflicts status on self. Ally defense truly changes by * (750% defense).
+Black Light,Inflicts status on self. Ally magic defense truly changes by * (-750% magic defense) on taking magic damage. Has 1 charge. Inflicts status on self. Ally magic defense truly changes by * (750% magic defense).
+Final Question,Inflicts status on enemy. Enemy strength magically changes by * (-85% magic) (-1 per level).
+Witch's Hex,Inflicts status on enemy. Enemy hp magically changes by * (-20% magic) at the end of the round. Lasts 10 rounds.
+Crystalize,Inflicts status on self. Ally hp truly changes by * (35% magic) (1.5 per level) on using a spell. Has 3 charges.
+Calculator,Inflicts status on self. Ally strength truly changes by * (Enemy's 40% strength).
+Abacus,Inflicts status on self. Ally strength truly changes by * (Enemy's 20% strength). Inflicts status on enemy. Enemy hp magically changes by * (-20% magic) at the end of the round. Lasts 5 rounds.
+Smallest Kick,Inflicts status on self. Enemy hp physically changes by * (Enemy's -20% max hp) on basic attacking.
+Flowers,Inflicts status on self. Ally magic truly changes by * (5 per level). Inflicts status on self. Ally magic truly changes by * (-1 per level) at the end of the round. Lasts 10 rounds.
+Scuttler,Inflicts status on self. Ally speed truly changes by * (50% magic) on basic attacking.
+Hat Trick,Inflicts status on self. Enemy hp magically changes by * (-200% magic) (-1 per level) on taking magic damage. Lasts 1 round.
+Groovy Trick,Inflicts status on self. Enemy hp magically changes by * (-100% magic) (-1 per level) on taking magic damage. Lasts 1 round. Inflicts status on self. Ally magic truly changes by * (15% magic) (1 per level) on basic attacking.
+Venomous Fangs,Inflicts status on self. Enemy speed magically changes by * (-50% magic) (-1 per level) on using a spell.
+Share Snacks,Inflicts status on self. Ally mana truly sets to * (100% max mana) on taking physical damage. Has 1 charge. Lasts 3 rounds. Inflicts status on enemy. Enemy mana truly sets to * (Enemy's 100% max mana) on taking physical damage. Has 1 charge. Lasts 3 rounds.
+Share Stocks,Inflicts status on self. Ally hp truly changes by * (500% magic) (5 per level) on taking physical damage. Has 1 charge. Lasts 3 rounds. Inflicts status on enemy. Enemy hp truly changes by * (500% magic) (5 per level) on taking physical damage. Has 1 charge. Lasts 3 rounds.
+Chalk Jelly,Inflicts status on self. Ally defense truly changes by * (1.5 per level). Inflicts status on self. Ally hp truly changes by * (35% magic) on taking magic damage.
+Tooth Swarm,Inflicts status on self. Enemy hp physically changes by * (-10% magic) (-1 per level) on using a spell.
+Infinite-Sided,Inflicts status on self. Ally strength truly changes by * (20% strength) on using a spell. Has 99999 charges. Inflicts status on self. Ally strength truly sets to * (0% strength).
+Snackbush,Inflicts status on self. Ally mana truly changes by * (30% max mana) on taking physical damage. Has 1 charge. Inflicts status on self. Ally strength truly changes by * (-50% magic) (-1 per level) at the end of the round. Has 1 charge. Inflicts status on self. Ally strength truly changes by * (50% magic) (1 per level).
+Digital Flowers,Inflicts status on self. Ally magic truly changes by * (Enemy's -30% magic) (-0.3 per level) at the end of the round. Lasts 10 rounds. Inflicts status on self. Ally magic truly changes by * (Enemy's 100% magic) (1 per level).
+Spiked Coil,Inflicts status on self. Enemy hp physically changes by * (-15% magic) (-0.5 per level) on taking physical damage. Inflicts status on self. Ally magic truly changes by * (15% magic) on taking magic damage. Has 3 charges.
+Double Back,Inflicts status on self. Ally hp truly changes by * (-50% strength). Inflicts status on self. Ally strength truly changes by * (75% strength). Inflicts status on self. Ally magic truly changes by * (25% strength) (0.5 per level).
+Smug,Inflicts status on self. Ally strength truly changes by * (20% magic) (1 per level) on taking physical damage.
+Sickly,Inflicts status on self. Enemy strength magically changes by * (-30% hp) on basic attacking.
+Smoke Factory,Inflicts status on self. Enemy strength magically changes by * (-20% magic) (-0.5 per level) at the end of the round. Inflicts status on self. Enemy speed magically changes by * (-20% magic) (-0.5 per level) at the end of the round.
+Crystalized Smoke,Inflicts status on self. Enemy magic magically changes by * (-40% magic) on using a spell. Has 3 charges. Inflicts status on self. Enemy speed magically changes by * (-40% magic) on using a spell. Has 3 charges.
+No Mercy,Inflicts status on enemy. Enemy hp physically changes by * (-100% magic) (-0.5 per level).
+Hair Climber,Inflicts status on self. Ally speed truly changes by * (400% magic) (1 per level) on taking magic damage. Has 1 charge.
+Tangled Hair,Inflicts status on enemy. Enemy hp physically changes by * (-50% magic) (-0.25 per level). Inflicts status on self. Ally speed truly changes by * (200% magic) (1 per level) on taking magic damage. Has 1 charge.
+Death Scuttle,Inflicts status on enemy. Enemy defense truly changes by * (Enemy's -15% magic defense). Inflicts status on self. Ally speed truly changes by * (10% magic) (0.5 per level) on basic attacking.
+Salty Snacks,Inflicts status on self. Ally speed truly changes by * (20% magic) (1 per level) on using a spell. Has 4 charges.
+Breath Theft,Inflicts status on self. Ally magic truly changes by * (Enemy's 25% magic). Inflicts status on enemy. Enemy magic truly changes by * (Enemy's -25% magic).
+False Jaw,Inflicts status on self. Enemy hp physically changes by * (-300% magic) (1 per level) on taking physical damage. Lasts 1 round.
+False Mark,Inflicts status on self. Enemy hp physically changes by * (-150% magic) (0.5 per level) on taking physical damage. Lasts 1 round. Inflicts status on enemy. Ally hp truly changes by * (15% magic) (1 per level) on taking physical damage. Lasts 3 rounds.
+Egg?,Inflicts status on self. Ally defense truly changes by * (8% magic) (1 per level). Inflicts status on self. Ally magic defense truly changes by * (8% magic) (1 per level).
+Egg Snacks?,Inflicts status on self. Ally defense truly changes by * (5% magic) (0.5 per level). Inflicts status on self. Ally magic defense truly changes by * (5% magic) (0.5 per level). Inflicts status on self. Ally speed truly changes by * (10% magic) (0.25 per level) on using a spell. Has 2 charges.
+Sickly Smug,Inflicts status on self. Enemy strength magically changes by * (-15% hp) on basic attacking. Inflicts status on self. Ally strength truly changes by * (10% magic) (0.5 per level) on taking physical damage.
+Guilty,Inflicts status on self. Ally hp truly changes by * (-10% magic) at the start of the round. Inflicts status on self. Ally magic truly changes by * (50% magic).
+Elixir,Inflicts status on self. Ally mana truly sets to * (0% max mana). Inflicts status on self. Ally magic truly changes by * (5 per level).
+Rose Child,Inflicts status on self. Ally mana truly sets to * (10% max mana). Inflicts status on self. Ally magic truly changes by * (2.5 per level). Inflicts status on self. Ally hp truly changes by * (-10% magic) at the start of the round. Inflicts status on self. Ally magic truly changes by * (25% magic).
+Final Illusion,Inflicts status on enemy. Enemy strength magically changes by * (-20% magic) (-0.5 per level). Inflicts status on self. Enemy hp truly changes by * (-15% magic) (-0.5 per level) on taking magic damage.
+Venomous Tea,Inflicts status on self. Enemy speed magically changes by * (-25% magic) (-0.5 per level) on using a spell. Inflicts status on self. Ally speed truly changes by * (5% magic) (0.25 per level) at the end of the round.
+Sturdy Wall,Inflicts status on self. Ally defense truly changes by * (40% magic) (5 per level). Inflicts status on self. Ally defense truly changes by * (5% magic) (-3 per level) on taking physical damage. Has 4 charges.
+Magic Coral,Inflicts status on self. Ally speed truly changes by * (-50% magic) (-5 per level). Inflicts status on self. Ally defense truly changes by * (10% magic) (0.2 per level) on taking physical damage. Has 10 charges. Inflicts status on self. Ally magic defense truly changes by * (10% magic) (0.2 per level) on taking magic damage. Has 10 charges.
+Coral Wall,Inflicts status on self. Ally speed truly changes by * (0% magic) (-2.5 per level). Inflicts status on self. Ally defense truly changes by * (25% magic) (2.5 per level). Inflicts status on self. Ally defense truly changes by * (3% magic) (-1.5 per level) on taking physical damage. Has 4 charges. Inflicts status on self. Ally defense truly changes by * (10% magic) (0.2 per level) on taking physical damage. Has 5 charges. Inflicts status on self. Ally magic defense truly changes by * (10% magic) (0.2 per level) on taking magic damage. Has 5 charges.
+Chaos Eater,Inflicts status on self. Enemy defense magically changes by * (-60% magic) (-0.5 per level) on basic attacking. Has 3 charges.
+Unfathomable Arbiter,Inflicts status on enemy. Enemy mana truly changes by * (Enemy's -10% max mana). Inflicts status on self. Enemy mana truly changes by * (Enemy's -10% max mana) at the end of the round.
+Unstable Explosive,Inflicts status on enemy. Enemy hp magically changes by * (-100% hp) at the start of the round. Has 1 charge. Inflicts status on self. Ally hp truly changes by * (-100% max hp).
+Explosive,Inflicts status on enemy. Enemy hp magically changes by * (-50% hp) at the start of the round. Has 1 charge. Inflicts status on self. Ally hp truly changes by * (-50% max hp).
+Stable Explosive,Inflicts status on enemy. Enemy hp magically changes by * (-25% hp) at the start of the round. Has 1 charge. Inflicts status on self. Ally hp truly changes by * (-25% max hp).
+Pepper Parasite,Inflicts status on enemy. Enemy hp truly changes by * (-5% magic) (-1 per level) at the end of the round. Lasts 5 rounds. Inflicts status on enemy. Ally hp truly changes by * (5% magic) (1 per level) at the end of the round. Lasts 5 rounds. Inflicts status on self. Ally magic truly changes by * (10% magic) at the end of the round. Lasts 5 rounds.
+Brittle World,Inflicts status on enemy. Enemy defense magically changes by * (-40% magic) (-0.75 per level). Inflicts status on self. Ally hp truly changes by * (20% max hp) at the end of the round. Lasts 2 rounds. Inflicts status on self. Enemy hp truly changes by * (Enemy's 20% max hp) at the end of the round. Lasts 2 rounds.
+Lover,Inflicts status on enemy. Enemy magic magically changes by * (-70% magic). Inflicts status on enemy. Enemy strength magically changes by * (-70% magic).
+Bottomless Love,Inflicts status on enemy. Enemy strength magically changes by * (-25% magic) on using a spell. Inflicts status on enemy. Enemy magic magically changes by * (-25% magic) on using a spell.
+Spin,Inflicts status on self. Ally magic truly changes by * (20% magic) (1 per level) on taking physical damage.
+Festive Snack,Inflicts status on self. Ally mana truly changes by * (30% max mana) on taking physical damage. Has 1 charge. Inflicts status on self. Ally magic truly changes by * (10% magic) (0.5 per level) on taking physical damage.
+Cursed Candy,Inflicts status on self. Enemy mana truly changes by * (20% max mana) on taking physical damage. Has 5 charges. Inflicts status on self. Enemy hp physically changes by * (-60% magic) (-2 per level) on taking physical damage. Has 5 charges.
+Ancient Candy,Inflicts status on self. Enemy mana truly changes by * (20% max mana) on taking magic damage. Has 3 charges. Inflicts status on self. Ally magic truly changes by * (50% magic) (1 per level) on taking magic damage. Has 3 charges.
+Gift,Inflicts status on enemy. Enemy max hp truly changes by * (5 per level). Inflicts status on enemy. Enemy hp truly changes by * (5 per level). Inflicts status on self. Ally magic truly changes by * (2.5 per level). Inflicts status on self. Ally strength truly changes by * (2.5 per level).
+Wonderful Gift,Inflicts status on enemy. Enemy max hp truly changes by * (10 per level). Inflicts status on enemy. Enemy hp truly changes by * (10 per level). Inflicts status on self. Ally magic truly changes by * (5 per level). Inflicts status on self. Ally strength truly changes by * (5 per level).
+Flowers for the Dead,Inflicts status on self. Enemy max hp magically changes by * (Enemy's -10% max hp) at the start of the round.
+Flower Effigy,Inflicts status on self. Ally hp truly changes by * (35% magic) on taking magic damage. Inflicts status on self. Enemy max hp magically changes by * (Enemy's -5% max hp) at the start of the round.
+Firecracker,Inflicts status on self. Enemy hp magically changes by * (-30% magic) (-0.5 per level) on using a spell.
+Money Maker,Inflicts status on self. Ally hp truly changes by * (15% magic) (0.75 per level) on using a spell.
+Subscribe,Inflicts status on self. Ally magic truly changes by * (20% magic). Inflicts status on enemy. Enemy magic truly changes by * (-20% magic).
+Shrimp,Inflicts status on self. Ally speed truly changes by * (30% magic) (1 per level). Inflicts status on self. Ally strength truly changes by * (30% magic) (0.5 per level).
+Power Shrimp,Inflicts status on self. Ally magic truly changes by * (10% magic). Inflicts status on enemy. Enemy magic truly changes by * (-10% magic). Inflicts status on self. Ally speed truly changes by * (30% magic). Inflicts status on self. Ally strength truly changes by * (15% magic).
+Mug,Inflicts status on self. Ally defense truly sets to * (0% defense) on taking physical damage. Has 1 charge. Inflicts status on self. Ally magic truly changes by * (90% defense) on taking physical damage. Has 1 charge. Inflicts status on self. Ally speed truly changes by * (25% defense) on taking physical damage. Has 1 charge.
+Tipped Over,Inflicts status on self. Ally speed truly changes by * (10% magic) (1 per level). Inflicts status on self. Ally magic truly changes by * (5% magic) (0.5 per level).
+Astromancy,Inflicts status on self. Enemy hp magically changes by * (-30% magic) (-1.2 per level) on using a spell. Has 3 charges.
+Ruler of the Cosmos,Inflicts status on self. Ally speed truly changes by * (8% magic). Inflicts status on self. Ally magic truly changes by * (3% magic). Inflicts status on self. Enemy hp magically changes by * (-15% magic) (-0.6 per level) on using a spell. Has 3 charges.
+Jazz,Inflicts status on self. Ally speed truly changes by * (20% magic) (1 per level). Inflicts status on self. Ally speed truly changes by * (10% magic) at the end of the round.
+Castle Jazz,Inflicts status on self. Ally magic truly changes by * (10% defense) (1 per level). Inflicts status on self. Ally magic truly changes by * (5% defense) at the end of the round.
+Jelly,Inflicts status on self. Ally hp truly changes by * (100% magic) on taking physical damage. Has 1 charge.
+Acolyte of Jelly,Inflicts status on self. Enemy hp magically changes by * (-35% magic) on basic attacking. Inflicts status on self. Ally hp truly changes by * (50% magic) on taking physical damage. Has 1 charge.
+Jaw Thief,Inflicts status on self. Ally strength truly changes by * (Enemy's 25% strength). Inflicts status on enemy. Enemy strength truly changes by * (Enemy's -25% strength).
+Charm,Inflicts status on self. Enemy mana truly changes by * (-20% max mana) on taking physical damage.
+Burning Charm,Inflicts status on self. Enemy mana truly changes by * (-10% max mana) on taking physical damage. Inflicts status on self. Ally strength truly changes by * (10% max hp) at the start of the round. Lasts 3 rounds. Inflicts status on self. Ally magic truly changes by * (10% max hp) at the start of the round. Lasts 3 rounds. Inflicts status on self. Ally max hp truly changes by * (-10% max hp) at the start of the round. Lasts 3 rounds. Inflicts status on self. Ally hp truly changes by * (-10% max hp) at the start of the round. Lasts 3 rounds.
+Healing Stars,Inflicts status on enemy. Ally hp truly changes by * (100% magic) on taking physical damage. Has 1 charge. Lasts 2 rounds.
+Strong Stars,Inflicts status on enemy. Enemy hp magically changes by * (-120% magic) (-2 per level) on taking physical damage. Has 1 charge. Lasts 2 rounds.
+Twin Stars,Inflicts status on self. Ally strength truly sets to * (Enemy's 80% strength). Inflicts status on self. Ally magic truly sets to * (Enemy's 80% magic).
+Crabby Star,Inflicts status on self. Enemy hp physically changes by * (-100% magic) on using a spell. Has 3 charges.
+Courageous Star,Inflicts status on enemy. Enemy strength magically changes by * (-100% magic) on taking physical damage. Has 1 charge. Lasts 2 rounds.
+Lady Star,Inflicts status on self. Ally defense truly sets to * (Enemy's 100% defense).
+Star Judge,Inflicts status on self. Enemy strength truly sets to * (Enemy's 50% strength) at the start of the round. Lasts 1 round. Inflicts status on self. Enemy magic truly sets to * (Enemy's 50% magic) at the start of the round. Lasts 1 round. Inflicts status on self. Enemy strength truly changes by * (Enemy's 50% magic) at the start of the round. Lasts 1 round. Inflicts status on self. Enemy magic truly changes by * (Enemy's 50% strength) at the start of the round. Lasts 1 round.
+Star Scorpion,Inflicts status on enemy. Enemy strength physically changes by * (-10% strength) at the end of the round. Lasts 10 rounds.
+Starcher,Inflicts status on self. Enemy hp physically changes by * (-30% strength) (-1 per level) on using a spell. Inflicts status on self. Ally magic truly sets to * on basic attacking. Has 1 charge. Inflicts status on self. Ally strength truly sets to * (120% strength) on basic attacking. Has 1 charge.
+Star Blessings,Inflicts status on enemy. Ally hp truly changes by * (7% magic) on taking physical damage. Has 1 charge. Lasts 2 rounds. Inflicts status on enemy. Ally strength truly changes by * (7% magic) on taking physical damage. Has 1 charge. Lasts 2 rounds. Inflicts status on enemy. Ally defense truly changes by * (7% magic) on taking physical damage. Has 1 charge. Lasts 2 rounds. Inflicts status on enemy. Ally magic defense truly changes by * (7% magic) on taking physical damage. Has 1 charge. Lasts 2 rounds.
+Jar of Water,Inflicts status on enemy. Enemy strength magically changes by * (-150% magic).
+Fast Swimmers,Inflicts status on enemy. Ally speed truly changes by * (30% speed) on taking physical damage. Has 1 charge.
+The Prince,Inflicts status on self. Ally mana truly sets to * (100% max mana) at the end of the round. Inflicts status on self. Ally hp magically changes by * (-40% max hp) at the start of the round.
+Oily Kicks,Inflicts status on self. Enemy hp physically changes by * (Enemy's -10% max hp) on basic attacking. Has 3 charges. Inflicts status on self. Ally strength truly changes by * (1.5 per level).
+Cubic Trap,Inflicts status on enemy. Enemy speed truly changes by * (Enemy's -250% mana).
+Growing Horns,Inflicts status on self. Ally strength truly changes by * (15% magic) (0.5 per level) on using a spell.
+Best Friends,Inflicts status on self. Ally hp truly changes by * (2 per level) on basic attacking. Inflicts status on self. Ally strength truly sets to * (1.25 per level) on using a spell. Has 1 charge. Inflicts status on self. Ally magic truly changes by * (85% defense) on using a spell. Has 1 charge. Inflicts status on self. Ally speed truly changes by * (25% defense) on using a spell. Has 1 charge. Inflicts status on self. Ally defense truly sets to * on using a spell. Has 1 charge.
+Brain Scramble,Inflicts status on enemy. Enemy hp magically changes by * (-40% magic) on using a spell. Lasts 5 rounds.
+Mind Horns,Inflicts status on self. Ally strength truly changes by * (15% magic) (0.5 per level) on using a spell. Lasts 3 rounds. Inflicts status on enemy. Enemy hp magically changes by * (-40% magic) on using a spell. Lasts 3 rounds.
+11001010,Inflicts status on self. Enemy hp truly changes by * (-1% max mana).
+22002022,Inflicts status on self. Ally magic truly changes by * (1% max mana) on taking physical damage. Has 1 charge. Inflicts status on self. Ally speed truly changes by * (1% max mana) on taking physical damage. Has 1 charge. Inflicts status on self. Ally defense truly changes by * (-1% max mana) on taking physical damage. Has 1 charge.
+#.Mug.2,Inflicts status on self. Ally magic truly changes by * (300% mana) on taking physical damage. Has 1 charge. Lasts 1 round. Inflicts status on self. Ally speed truly changes by * (150% mana) on taking physical damage. Has 1 charge. Lasts 1 round. Inflicts status on self. Ally mana truly changes by * (-50% mana) on taking physical damage. Has 1 charge. Lasts 1 round.
+Cannon,Inflicts status on self. Enemy hp physically changes by * (-250% ).
+Nectar Drinker,Inflicts status on self. Ally mana truly changes by * (10% max mana) on basic attacking. Inflicts status on self. Enemy mana truly changes by * (-10% max mana) on basic attacking.
+Nectar Cannoneer,Inflicts status on self. Ally mana truly changes by * (10% max mana) on basic attacking. Has 1 charge. Inflicts status on self. Enemy mana truly changes by * (-10% max mana) on basic attacking. Has 1 charge. Inflicts status on self. Enemy hp physically changes by * (-125% ).
+Hand Cannon,Inflicts status on self. Enemy hp physically changes by * (-25% mana) (-6 per level).

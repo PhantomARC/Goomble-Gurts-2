@@ -1,12 +1,13 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Images/template/Panel.png" type="Texture" id=1]
 [ext_resource path="res://Images/template/Background.png" type="Texture" id=2]
 [ext_resource path="res://Scripts/Datacard.gd" type="Script" id=3]
+[ext_resource path="res://Images/template/Moveblock/Neutral.png" type="Texture" id=4]
 [ext_resource path="res://Resources/GG2 Font Small.tres" type="DynamicFont" id=5]
 [ext_resource path="res://Resources/GG2 Font Large.tres" type="DynamicFont" id=6]
 [ext_resource path="res://Resources/GG2 Font Medium.tres" type="DynamicFont" id=7]
-[ext_resource path="res://Resources/Divider.png" type="Texture" id=8]
+[ext_resource path="res://Images/template/Divider.png" type="Texture" id=8]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.737255, 0, 0.0117647, 1 )
@@ -157,22 +158,10 @@ texture = ExtResource( 8 )
 expand = true
 stretch_mode = 1
 
-[node name="label4" type="Label" parent="Panel/VBind"]
+[node name="Stats" type="HBoxContainer" parent="Panel/VBind"]
 margin_top = 152.0
 margin_right = 432.0
-margin_bottom = 192.0
-rect_min_size = Vector2( 48, 40 )
-size_flags_vertical = 1
-custom_fonts/font = ExtResource( 6 )
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "Base Stats"
-align = 1
-valign = 1
-
-[node name="Stats" type="HBoxContainer" parent="Panel/VBind"]
-margin_top = 200.0
-margin_right = 432.0
-margin_bottom = 312.0
+margin_bottom = 282.0
 size_flags_vertical = 3
 __meta__ = {
 "_edit_use_anchors_": false
@@ -180,13 +169,13 @@ __meta__ = {
 
 [node name="statBox_1" type="GridContainer" parent="Panel/VBind/Stats"]
 margin_right = 214.0
-margin_bottom = 112.0
+margin_bottom = 130.0
 size_flags_horizontal = 3
 columns = 2
 
 [node name="hpLabel" type="Label" parent="Panel/VBind/Stats/statBox_1"]
 margin_right = 48.0
-margin_bottom = 34.0
+margin_bottom = 40.0
 rect_min_size = Vector2( 48, 0 )
 size_flags_vertical = 3
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -223,9 +212,9 @@ __meta__ = {
 }
 
 [node name="atkLabel" type="Label" parent="Panel/VBind/Stats/statBox_1"]
-margin_top = 38.0
+margin_top = 44.0
 margin_right = 48.0
-margin_bottom = 72.0
+margin_bottom = 84.0
 rect_min_size = Vector2( 48, 0 )
 size_flags_vertical = 3
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -234,9 +223,9 @@ align = 1
 
 [node name="atkBar" type="ProgressBar" parent="Panel/VBind/Stats/statBox_1"]
 margin_left = 52.0
-margin_top = 38.0
+margin_top = 44.0
 margin_right = 214.0
-margin_bottom = 62.0
+margin_bottom = 68.0
 rect_min_size = Vector2( 0, 24 )
 size_flags_horizontal = 3
 custom_styles/fg = SubResource( 1 )
@@ -263,9 +252,9 @@ __meta__ = {
 }
 
 [node name="dfsLabel" type="Label" parent="Panel/VBind/Stats/statBox_1"]
-margin_top = 76.0
+margin_top = 88.0
 margin_right = 48.0
-margin_bottom = 110.0
+margin_bottom = 128.0
 rect_min_size = Vector2( 48, 0 )
 size_flags_vertical = 3
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -274,9 +263,9 @@ align = 1
 
 [node name="dfsBar" type="ProgressBar" parent="Panel/VBind/Stats/statBox_1"]
 margin_left = 52.0
-margin_top = 76.0
+margin_top = 88.0
 margin_right = 214.0
-margin_bottom = 100.0
+margin_bottom = 112.0
 rect_min_size = Vector2( 0, 24 )
 size_flags_horizontal = 3
 custom_styles/fg = SubResource( 1 )
@@ -305,13 +294,13 @@ __meta__ = {
 [node name="statBox_2" type="GridContainer" parent="Panel/VBind/Stats"]
 margin_left = 218.0
 margin_right = 432.0
-margin_bottom = 112.0
+margin_bottom = 130.0
 size_flags_horizontal = 3
 columns = 2
 
 [node name="magLabel" type="Label" parent="Panel/VBind/Stats/statBox_2"]
 margin_right = 48.0
-margin_bottom = 34.0
+margin_bottom = 40.0
 rect_min_size = Vector2( 48, 0 )
 size_flags_vertical = 3
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -348,9 +337,9 @@ __meta__ = {
 }
 
 [node name="resLabel" type="Label" parent="Panel/VBind/Stats/statBox_2"]
-margin_top = 38.0
+margin_top = 44.0
 margin_right = 48.0
-margin_bottom = 72.0
+margin_bottom = 84.0
 rect_min_size = Vector2( 48, 0 )
 size_flags_vertical = 3
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -359,9 +348,9 @@ align = 1
 
 [node name="resBar" type="ProgressBar" parent="Panel/VBind/Stats/statBox_2"]
 margin_left = 52.0
-margin_top = 38.0
+margin_top = 44.0
 margin_right = 214.0
-margin_bottom = 62.0
+margin_bottom = 68.0
 rect_min_size = Vector2( 0, 24 )
 size_flags_horizontal = 3
 custom_styles/fg = SubResource( 1 )
@@ -388,9 +377,9 @@ __meta__ = {
 }
 
 [node name="spdLabel" type="Label" parent="Panel/VBind/Stats/statBox_2"]
-margin_top = 76.0
+margin_top = 88.0
 margin_right = 48.0
-margin_bottom = 110.0
+margin_bottom = 128.0
 rect_min_size = Vector2( 48, 0 )
 size_flags_vertical = 3
 custom_colors/font_color = Color( 0, 0, 0, 1 )
@@ -399,9 +388,9 @@ align = 1
 
 [node name="spdBar" type="ProgressBar" parent="Panel/VBind/Stats/statBox_2"]
 margin_left = 52.0
-margin_top = 76.0
+margin_top = 88.0
 margin_right = 214.0
-margin_bottom = 100.0
+margin_bottom = 112.0
 rect_min_size = Vector2( 0, 24 )
 size_flags_horizontal = 3
 custom_styles/fg = SubResource( 1 )
@@ -421,6 +410,105 @@ rect_min_size = Vector2( 48, 0 )
 size_flags_vertical = 3
 custom_colors/font_color = Color( 1, 0.956863, 0.866667, 1 )
 text = "0"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="divider2" type="TextureRect" parent="Panel/VBind"]
+margin_top = 290.0
+margin_right = 432.0
+margin_bottom = 294.0
+rect_min_size = Vector2( 0, 4 )
+texture = ExtResource( 8 )
+expand = true
+stretch_mode = 1
+
+[node name="moveBox" type="GridContainer" parent="Panel/VBind"]
+margin_top = 302.0
+margin_right = 432.0
+margin_bottom = 432.0
+size_flags_vertical = 3
+columns = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="m1" type="TextureRect" parent="Panel/VBind/moveBox"]
+margin_right = 214.0
+margin_bottom = 43.0
+rect_min_size = Vector2( 0, 43 )
+size_flags_horizontal = 3
+texture = ExtResource( 4 )
+expand = true
+stretch_mode = 5
+
+[node name="move_name" type="Label" parent="Panel/VBind/moveBox/m1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="m2" type="TextureRect" parent="Panel/VBind/moveBox"]
+margin_left = 218.0
+margin_right = 432.0
+margin_bottom = 43.0
+rect_min_size = Vector2( 0, 43 )
+size_flags_horizontal = 3
+texture = ExtResource( 4 )
+expand = true
+stretch_mode = 5
+
+[node name="move_name" type="Label" parent="Panel/VBind/moveBox/m2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="m3" type="TextureRect" parent="Panel/VBind/moveBox"]
+margin_top = 47.0
+margin_right = 214.0
+margin_bottom = 90.0
+rect_min_size = Vector2( 0, 43 )
+size_flags_horizontal = 3
+texture = ExtResource( 4 )
+expand = true
+stretch_mode = 5
+
+[node name="move_name" type="Label" parent="Panel/VBind/moveBox/m3"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="m4" type="TextureRect" parent="Panel/VBind/moveBox"]
+margin_left = 218.0
+margin_top = 47.0
+margin_right = 432.0
+margin_bottom = 90.0
+rect_min_size = Vector2( 0, 43 )
+size_flags_horizontal = 3
+texture = ExtResource( 4 )
+expand = true
+stretch_mode = 5
+
+[node name="move_name" type="Label" parent="Panel/VBind/moveBox/m4"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 align = 1
 valign = 1
 __meta__ = {

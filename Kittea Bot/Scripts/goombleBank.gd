@@ -9,11 +9,14 @@ var dexMoves : Dictionary = {}
 var dexStats : Dictionary = {}
 var dexlowerName : Dictionary = {}
 var infoPassive : Dictionary = {}
+var infoMoves : Dictionary = {}
+var infolowerMoves : Dictionary = {}
 
 
 func create_dicts():
 	populate_dicts(generate_data("res://resources/goombles.gg2"))
 	populate_infoPassive(generate_data("res://resources/passives.gg2"))
+	populate_infoMoves(generate_data("res://resources/moves.gg2"))
 
 
 func generate_data(path) -> Dictionary:
@@ -52,6 +55,28 @@ func return_data(name : String) -> Dictionary:
 	return comp_dict
 
 
+func return_move(name : String) -> Dictionary:
+	var comp_dict : Dictionary = {}
+	if infolowerMoves.has(name.to_lower()):
+		var id_code = infolowerMoves[name.to_lower()]
+		comp_dict["name"] = id_code
+		comp_dict["cost"] = infoMoves[id_code][0]
+		comp_dict["type"] = infoMoves[id_code][1]
+		comp_dict["damage"] = infoMoves[id_code][2]
+		comp_dict["effect"] = infoMoves[id_code][3]
+	return comp_dict
+
+
 func populate_infoPassive(data : Dictionary):
 	for i in data.keys():
 		infoPassive[str(data[i][0])] = str(data[i][1])
+
+
+func populate_infoMoves(data : Dictionary):
+	for i in data.keys():
+		infoMoves[str(data[i][0])] = Array(data[i]).slice(1,data[i].size(),1,false)
+		infolowerMoves[str(data[i][0]).to_lower()] = str(data[i][0])
+
+
+func get_type(move : String) -> String:
+	return infoMoves[move][1]

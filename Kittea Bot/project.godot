@@ -12,8 +12,9 @@ config_version=4
 
 config/name="Kittea Bot"
 run/main_scene="res://Scenes/Core.tscn"
+run/low_processor_mode=true
 config/icon="res://icon.png"
-config/windows_native_icon="res://Images/icon.ico"
+config/windows_native_icon="res://icon.ico"
 
 [autoload]
 
@@ -25,8 +26,8 @@ gdscript/warnings/enable=false
 
 [display]
 
-window/size/width=480
-window/size/height=360
+window/size/width=170
+window/size/height=60
 
 [gui]
 
