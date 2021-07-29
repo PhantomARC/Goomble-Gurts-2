@@ -6,7 +6,8 @@ var args : Dictionary = {
 	"INFO" : funcref(self,"cmd_info"),
 	"SLEEP" : funcref(self,"cmd_sleep"),
 	"MOVE" : funcref(self,"cmd_move"),
-	"KITTEA" : funcref(self,"cmd_kittea")
+	"KITTEA" : funcref(self,"cmd_kittea"),
+	"BUG" : funcref(self,"cmd_report"),
 	}
 
 
@@ -65,8 +66,7 @@ func cmd_move(name : String) -> Dictionary:
 
 func cmd_sleep(timed : String) -> Dictionary:
 	Global.header = ["Content-Type: application/json"]
-	if (int(get_parent().maindict["d"]["author"]["id"]) == 197210221406453762) and \
-		int(get_parent().maindict["d"]["author"]["discriminator"]) == 0404:
+	if verifyUser():
 		Global.sleepcounter = int(timed) * 60
 		return {"content" : (Global.cats["purr cat"] + "   Kittea will go to sleep in "+ timed +" seconds.")}
 	else:
@@ -79,3 +79,64 @@ func cmd_kittea(pat : String) -> Dictionary:
 		return {"content" : Global.pixelCat}
 	else:
 		return {"content" : Global.cats["meow cat"]}
+
+
+func cmd_report(error : String) -> Dictionary:
+	Global.header = ["Content-Type: application/json"]
+	if verifyUser():
+		var errorFile = File.new()
+		errorFile.open("user://error.gg2",File.READ)
+		var errNum = int(errorFile.get_line())
+		errorFile.close()
+		var errTitle : String = "#" + cat(str(errNum),3) + ": "
+		errTitle += error.split(",",false,1)[0]
+		var errDesc : String = error.split(",",false,1)[1]
+		var userName = get_parent().maindict["d"]["author"]["username"]
+		var userID = get_parent().maindict["d"]["author"]["id"]
+		var userDisc = get_parent().maindict["d"]["author"]["discriminator"]
+		var userAvatar = get_parent().maindict["d"]["author"]["avatar"]
+		var OSYear = str(OS.get_date(true)["year"])
+		var OSMonth = cat(str(OS.get_date(true)["month"]),2)
+		var OSDate = cat(str(OS.get_date(true)["day"]),2)
+		var OSHr = cat(str(OS.get_time(true)["hour"]),2)
+		var OSMin = cat(str(OS.get_time(true)["minute"]),2)
+		var OSSec = cat(str(OS.get_time(true)["second"]),2)
+		if "," in error:
+			errorFile.open("user://error.gg2",File.WRITE)
+			errorFile.store_string(str(errNum + 1))
+			errorFile.close()
+			Global.pin = true
+			Global.channel_override = "863837844560805908"
+			return {"embeds": [{"title":errTitle,
+					"author": {
+						"name": "Submitted by: " + userName + "#" + userDisc,
+						"icon_url": "https://cdn.discordapp.com/avatars/" + \
+						userID + "/" + userAvatar + ".png"
+					},
+					"color": "0xb40003".hex_to_int(),
+					"description":errDesc,
+					"timestamp": (OSYear + "-" + OSMonth + \
+							"-" + OSDate + "T" + OSHr + ":" + OSMin + ":" + \
+							OSSec + ".420Z")
+					}]}
+		else:
+			return {"content" : (Global.cats["sad cat"] + "   Kittea wants you to add a comma between error and description!")}
+	else:
+		return {"content" : (Global.cats["sad cat"] + "   Kittea ignored your request.")}
+
+func cat(data : String,length : int) -> String:
+	var dataReturn = data
+	while dataReturn.length() < length:
+		dataReturn = "0" + dataReturn
+	return dataReturn
+
+
+func verifyUser() -> bool:
+	var messengerID = int(get_parent().maindict["d"]["author"]["id"])
+	if messengerID == 197210221406453762:
+		return true
+	elif messengerID == 213921723190345728:
+		return true
+	else:
+		return false
+

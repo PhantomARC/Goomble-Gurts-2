@@ -17,6 +17,7 @@ var maindict
 onready var clock = $pingTimer
 onready var invalid_clock = $invalidTimer
 onready var cdr_clock = $cooldownTimer
+onready var pin_clock = $pinTimer
 onready var cmdList = preload("res://Scripts/Commands.gd").new()
 
 
@@ -32,6 +33,7 @@ func _ready() -> void:
 	client.connect("connection_closed", self, "_connection_closed")
 	client.connect("server_close_request", self, "_server_close_request")
 	clock.connect("timeout", self, "_on_pingTimer_timeout")
+	pin_clock.connect("timeout", self, "_on_pinTimer_timeout")
 	invalid_clock.connect("timeout", self, "_on_invalid_Timer_timeout")
 
 
@@ -99,14 +101,21 @@ func handle_events(dict : Dictionary):
 		"MESSAGE_CREATE":
 			Global.passthrough = false
 			headers = ["Authorization: Bot %s" % oauth]
-			channel_id = dict["d"]["channel_id"]
+			Global.channel_override = dict["d"]["channel_id"]
 			var message_content = dict["d"]["content"]
+			if Global.pin:
+				pin_clock.pinData = "https://discordapp.com/api/v6/channels/"+"863837844560805908"+"/pins/" + dict["d"]["id"]
+				pin_clock.headers = headers
+				pin_clock.one_shot = true
+				pin_clock.wait_time = 0.1
+				pin_clock.start()
 			var reply = cmdList.scan_message(message_content,cdr_clock.get_time_left())
 			if reply is GDScriptFunctionState: # Still working.
 				reply = yield(reply, "completed")
 			if !reply.empty():
 				headers.append_array(Global.header)
 				var query : String = JSON.print(reply) if !Global.passthrough else reply
+				channel_id = Global.channel_override
 				request("https://discordapp.com/api/v6/channels/%s/messages" % channel_id, headers, true, HTTPClient.METHOD_POST, query)
 				cdr_clock.one_shot = true
 				cdr_clock.wait_time = 3
@@ -120,6 +129,19 @@ func _on_invalid_Timer_timeout() -> void:
 	else:
 		gen =  gen_dict(2, {"token" : oauth, "properties" : {}})
 	send_dict_as_packet(gen)
+
+
+func _on_pinTimer_timeout() -> void:
+	if Global.pin:
+		print(pin_clock.pinData)
+		print(pin_clock.headers)
+		var err = request(pin_clock.pinData, pin_clock.headers, true, HTTPClient.METHOD_PUT, "True")
+		if err != 0:
+			pin_clock.one_shot = true
+			pin_clock.wait_time = 0.1
+			pin_clock.start()
+		else:
+			Global.pin = !Global.pin
 
 
 func _connection_closed(was_clean_close : bool) -> void:

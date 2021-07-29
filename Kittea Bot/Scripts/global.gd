@@ -11,6 +11,8 @@ var cats : Dictionary = {
 	"content cat" : ('\u0028'+'\u003d'+'\u00b4'+'\u2207'+'\uff40'+'\u003d'+'\u0029'),
 	"meow cat" : ('\u002f'+'\u1420'+'\u002e'+'\u0020'+'\uff61'+'\u002e'+'\u141f'+'\u005c'+'\u005c'+'\u1d50'+'\u1d49'+'\u1d52'+'\u02b7'+'\u02ce'+'\u02ca'+'\u02d7'),
 }
+var channel_override = ""
+var pin = false
 
 func _process(delta):
 	if !(sleepcounter == -1):
