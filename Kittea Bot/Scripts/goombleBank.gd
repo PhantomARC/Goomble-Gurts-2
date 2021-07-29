@@ -14,9 +14,9 @@ var infolowerMoves : Dictionary = {}
 
 
 func create_dicts():
-	populate_dicts(generate_data("res://resources/goombles.gg2"))
-	populate_infoPassive(generate_data("res://resources/passives.gg2"))
-	populate_infoMoves(generate_data("res://resources/moves.gg2"))
+	populate_dicts(generate_data("res://Resources/goombles.gg2"))
+	populate_infoPassive(generate_data("res://Resources/passives.gg2"))
+	populate_infoMoves(generate_data("res://Resources/moves.gg2"))
 
 
 func generate_data(path) -> Dictionary:

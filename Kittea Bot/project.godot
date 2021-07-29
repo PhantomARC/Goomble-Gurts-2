@@ -8,6 +8,10 @@
 
 config_version=4
 
+_global_script_classes=[  ]
+_global_script_class_icons={
+}
+
 [application]
 
 config/name="Kittea Bot"
@@ -28,6 +32,7 @@ gdscript/warnings/enable=false
 
 window/size/width=170
 window/size/height=60
+window/vsync/use_vsync=false
 
 [gui]
 
@@ -35,8 +40,19 @@ theme/custom_font="res://Resources/GG2 Font Medium.tres"
 
 [physics]
 
+common/physics_fps=10
 common/enable_pause_aware_picking=true
 
 [rendering]
 
+quality/driver/driver_name="GLES2"
+quality/intended_usage/framebuffer_allocation=0
+quality/intended_usage/framebuffer_allocation.mobile=0
+vram_compression/import_etc=true
+quality/reflections/texture_array_reflections=false
+quality/reflections/high_quality_ggx=false
+quality/shading/force_vertex_shading.mobile=false
+quality/shading/force_lambert_over_burley.mobile=false
+quality/shading/force_blinn_over_ggx.mobile=false
+quality/depth_prepass/enable=false
 environment/default_environment="res://default_env.tres"
