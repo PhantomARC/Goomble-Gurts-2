@@ -1,0 +1,77 @@
+ _____                                    
+| ____|__ _  __ _ _ __   ___   __ _  __ _ 
+|  _| / _` |/ _` | '_ \ / _ \ / _` |/ _` |
+| |__| (_| | (_| | | | | (_) | (_| | (_| |
+|_____\__, |\__, |_| |_|\___/ \__, |\__, |
+      |___/ |___/             |___/ |___/ 
+
+Version 10.21.2025
+Created by: _ARX
+
+
+————————————————— About Eggnogg ————————————————
+
+Eggnogg.exe is a program designed to parse data
+present in Goomble Gurt II. It then renders the
+necessary images for Kittea.js. Eggnogg is 
+responsible for the following:
+
+• Creating Goomble images
+
+• Creating Move images
+
+• Creating Passive images
+
+• Creating directory structures for Kittea.js
+
+• Creating Data linkages for moves
+
+• Creating Data linkages for passives
+
+———————————————— Pre-requisites ————————————————
+
+To use Eggnogg.exe, you will need the following:
+
+• A folder containing all goomble images, 
+	including their miniature sprites. You can get
+	the default version from the GitHub repository: 
+	https://github.com/PhantomARC/Goomble-Gurts-2/tree/main
+	
+• A database file containing the data necessary
+	for Eggnogg to parse and render. You can get 
+	this file by exporting as .TSV from:
+	https://docs.google.com/spreadsheets/d/10lUPVLkCfBmQp-sf4bTkNXhHC0BEF1lSq9amzJUZlVk/edit?gid=18365675#gid=18365675
+	
+• An empty folder for Eggnogg to place rendered
+	content into. Ideally the folder should be 
+	named 'lib' so Kittea.js can directly use it.
+
+Note that you will need to combine the contents
+of 'Sprites/Minis' and 'Sprites/Full' into one 
+folder for Eggnogg.exe to work. The names of the
+input, output and .tsv folders and files does not
+matter. Make sure the output folder can be 
+written to and is not your input folder.
+
+———————————————————— Manual ————————————————————
+
+Upon starting Eggnogg.exe, you will be asked to 
+provide the necessary assets. Once you select your 
+output folder, TSV file and input folder, Eggnogg 
+will run a preliminary check to see if you have the 
+necessary components required to start rendering.
+If your input folder (where the images are) is 
+missing assets, Eggnogg will print a log with all
+missing images to your output folder, 'error.txt'.
+Otherwise, the render button will light up green,
+which you can then press to begin rendering.
+
+Once Eggnogg is finished rendering, it will 
+automatically close.
+
+————————————————————— Notes —————————————————————
+
+If your system logs Eggnogg as malware, it is
+likely because it was compressed using UPX. It's
+a false positive since many malwares use UPX for 
+compression but UPX itself is fine.

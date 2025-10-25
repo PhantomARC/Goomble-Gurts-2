@@ -1,0 +1,97 @@
+ _  ___ _   _             
+| |/ (_) |_| |_ ___  __ _ 
+| ' /| | __| __/ _ \/ _` |
+| . \| | |_| ||  __/ (_| |
+|_|\_\_|\__|\__\___|\__,_|
+
+
+Version 10.24.2025
+Created by: _ARX
+
+
+—————————————————— About Kittea —————————————————
+
+Kittea.js is a discord bot application designed 
+for lookups and other basic data fetching with
+regards to the game, Goomble Gurt II. Kittea is 
+capable of the following:
+
+• Goomble datasheet lookups
+
+• Move datasheet lookups
+
+• Passive datasheet lookups
+
+———————————————— Pre-requisites ————————————————
+
+To use Kittea.js, you will need the following:
+
+• A folder containing all image sheets for 
+	goombles, moves and passives, as well as 
+	datasheets for them. The folder must be named
+	'lib' (exclude the quote marks). You can get
+	this pregenerated folder by running Eggnogg.exe.
+	
+• 'config.json'; you will need to fill out the
+	missing contents, then place the finished file
+	in `src/config/`. You can get the token and a
+	client ID by creating a new application over at:
+	https://discord.com/developers/applications
+	The server ID can be obtained by right-clicking
+	your desired server and pressing "Copy Server ID".
+	You can find the blank copy of 'blank-config.json' 
+	in the same folder as Kittea.js.
+	
+• A Discord bot that has been added to a desired
+	server. You can add your Discord bot by using
+	the aforementioned link (above).
+
+• node.js v17 or higher. For specific instructions
+	on installing node.js on a raspberry pi zero:
+	https://hassancorrigan.com/blog/install-nodejs-on-a-raspberry-pi-zero/
+	For Windows users, you can get a node.js here: 
+	https://nodejs.org/en
+
+• npm as well as certain packages. by default, npm
+	comes installed with node.js. Here are the 
+	required dependencies, which you can paste into
+	cmd to install (in parantheses):
+	- discord.js v14 (npm install discord.js)
+
+Note that 'lib' will need to be placed in the 
+same folder that Kittea.js is in.
+
+———————————————————— Manual ————————————————————
+
+After grabbing the required files, start by getting
+the bot's token, client ID and server ID. Paste 
+those values into 'blank-config.json' and rename
+that file into 'config.json'. Finally, move that 
+file into the config folder located in 'src'.
+
+You will then need to run 'build-kittea.js' once by
+calling 'node build-kittea.js' in cmd before the
+bot functions properly.
+
+Before running kittea.js, check to see that you have:
+• A folder called 'lib' that was generated from 
+	eggnogg.exe;
+• A folder called 'src'
+• 'Kittea.js'
+• 'build-kittea.js'
+Make sure all of these files and folders are in their
+own folder. 
+
+You can now call 'node Kittea.js' to run the bot!
+
+————————————————————— Notes —————————————————————
+
+On Windows, you can open open up cmd by typing
+'cmd' (minus the quote marks) into the file explorer
+navigation tab (where it says "C:\Users\...\...\")
+and then pressing enter. For Linux, cmd represents 
+any terminal, which could just be the main screen
+for nogui ssh clients.
+
+
+
