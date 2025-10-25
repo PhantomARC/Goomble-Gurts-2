@@ -49,6 +49,14 @@ main();
 function main() {
 	client.commands = new Collection();
 	
+	process.on('unhandledRejection', (reason, promise) => {
+		console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+	});
+
+	process.on('uncaughtException', (error) => {
+		console.error('Uncaught Exception:', error);
+	});
+	
 	/* COMMAND LOADER */
 	const cmdPath = PATH.join(ROOT, 'src', 'commands');
 	const cmdDir = FS.readdirSync(cmdPath);

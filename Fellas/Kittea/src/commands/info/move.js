@@ -78,7 +78,7 @@ async function createResponse(name, interaction) {
 	const replyBlock = new ContainerBuilder()
 		.setAccentColor(0xfff4dd)
 		.addMediaGalleryComponents(imageContainer);
-	let moveArr = getMoveLinkArray(name);
+	let moveArr = getMoveLinkArray(textFilter(name));
 	if (moveArr[0]  !== '') {
 		if (moveArr.length > SELECTOR_CAP) {
 			const sourceRow = new ActionRowBuilder().addComponents(
